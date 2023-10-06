@@ -1,0 +1,346 @@
+.Faq{
+    width: 100%;
+    height: 1150px;
+    background-image: url("https://theimageconference.org/wp-content/uploads/2019/11/vancouver_image_conference_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Faq h2{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    top: 100px;
+}
+.FaqList{
+    width: 100%;
+    display: flex;
+    height: fit-content;
+    position: relative;
+    top: 300px;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+.f-left{
+    padding-right: 30px;
+    width: 33%;
+    height: 100%;
+    padding-top: 30px;
+    float: left;
+}
+.f-left h4{
+    color: skyblue;
+    font-size: 25px;
+    margin-left: 80px;
+}
+.f-left div{
+    height: fit-content;
+    width: 300px;
+    float: right;
+    background-color: #ece6e6;
+    margin-top: 10px;
+}
+.f-left ul{
+    list-style: none;
+    width: 100%;
+    height: fit-content;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+.f-left ul li{
+    padding: 15px;
+    border-bottom: 2px solid orange;
+    width: 100%;
+    color: orangered;
+}
+.f-left div ul li i{
+    float: right;
+}
+.hiddenDiv li{
+    border: none;
+}
+.f-right{
+    width: 60%;
+    height: 800px;
+    padding: 30px 60px 30px 30px;
+    position: relative;
+    top: -60px;
+    background-color: #fff;
+}
+.f-right h1{
+    margin: 10px 0px 30px 0px;
+    color: rgb(2, 2, 145);
+}
+.f-right p{
+    font-weight: 600;
+    color: rgb(2, 2, 145);
+    font-size: 25px;
+}
+.f-rightDiv{
+    height: fit-content;
+    width: 90%;
+    background-color: #ece6e6;
+    margin-top: 10px;
+}
+.f-right ul{
+    list-style: none;
+    width: 100%;
+    height: fit-content;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+.f-right ul li{
+    padding: 15px;
+    border-bottom: 2px solid orange;
+    width: 100%;
+    color: orangered;
+    font-size: 20px;
+}
+.f-right div ul li i{
+    float: right;
+    font-size: 30px;
+}
+.answers{
+    padding: 10px;
+}
+@media(max-width: 1000px){
+    .Faq{
+        overflow: hidden;
+        height: 1700px;
+        background-size: contain;
+    }
+    .FaqList{
+        display:grid;
+    }
+    .f-left{
+        width: 100%;
+        float: left;
+        height: fit-content;
+    }
+    .f-left div{
+        width: 600px;
+        float: none;
+        margin: auto;
+    }
+    .f-left ul li{
+        font-size: 25px;
+    }
+    .f-left h4{
+       font-size: 42px;
+       text-align: center;
+       margin-bottom: 20px;
+    }
+    .f-right{
+        width: 100%;
+        top: 0px;
+        padding: 20px;
+        height: fit-content;
+    }
+    .f-rightDiv{
+        width: 100%;
+        height: 100%;
+    }
+    .f-right h1{
+        font-size: 35px;
+    }
+    .f-right p{
+        font-size: 30px;
+    }
+}
+@media(max-width: 900px){
+    .Faq{
+        height: 1700px;
+    }
+    .f-right{
+        margin-bottom: 0px;
+    }
+}
+@media(max-width: 800px){
+    .Faq{
+        height: 1780px;
+    }
+}
+@media(max-width: 600px){
+    .Faq{
+        height: 1890px;
+    }
+    .FaqList{
+        display:grid;
+        justify-content: center;
+    }
+    .f-left{
+        width: 100%;
+        float: left;
+        padding-right: 0px;
+    }
+    .f-left div{
+        width: 500px;
+        float: none;
+        margin: auto;
+    }
+    .f-left ul li{
+        font-size: 25px;
+    }
+    .f-left h4{
+       font-size: 42px;
+       text-align: center;
+       margin-bottom: 20px;
+    }
+    .f-right{
+        width: 100%;
+        height: fit-content;
+    }
+    .f-right h1{
+        font-size: 30px;
+    }
+    .f-right p{
+        font-size: 25px;
+    }
+}
+@media(max-width: 500px){
+    .Faq{
+        height: 1860px;
+        background-size: contain;
+    }
+    .Faq h2{
+        font-size: 30px;
+    }
+    .f-left div{
+        width: 320px;
+    }
+    .f-left ul li{
+        font-size: 20px;
+    }
+    .f-left h4{
+       font-size: 30px;
+       margin-left: 0px;
+    }
+    .f-right{
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 0px;
+    }
+    .f-right h1{
+        font-size: 30px;
+    }
+    .f-right p{
+        font-size: 30px;
+    }
+}
+@media(max-width: 400px){
+    .Faq{
+        height: 1900px;
+        background-size: contain;
+    }
+    .f-left{
+        padding-right: 0px;
+        height: fit-content;
+    }
+    .f-left div{
+        width: 320px;
+    }
+    .f-left ul li{
+        font-size: 20px;
+    }
+    .f-left h4{
+       font-size: 30px;
+       margin-left: 0px;
+    }
+    .f-right{
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    .f-right h1{
+        font-size: 25px;
+    }
+    .f-right p{
+        font-size: 20px;
+    }
+}
+@media(max-width: 380px){
+    .Faq{
+        height: 1900px;
+    }
+    .f-left div{
+        width: 300px;
+    }
+    .f-left ul li{
+        font-size: 18px;
+    }
+    .f-left h4{
+       font-size: 30px;
+    }
+    .f-right{
+        width: 100%;
+    }
+    .f-right h1{
+        font-size: 25px;
+    }
+    .f-right p{
+        font-size: 20px;
+    }
+    .f-right ul li{
+        font-size: 18px;
+    }
+}
+@media(max-width: 370px){
+    .Faq{
+        height: 1820px;
+    }
+    .f-left div{
+        width: 300px;
+    }
+    .f-left ul li{
+        font-size: 18px;
+    }
+    .f-left h4{
+       font-size: 30px;
+    }
+    .f-right{
+        width: 100%;
+    }
+    .f-right h1{
+        font-size: 23px;
+    }
+    .f-right p{
+        font-size: 18px;
+    }
+    .f-right ul li{
+        font-size: 17px;
+    }
+}
+@media(max-width: 300px){
+    .Faq{
+        height: 1800px;
+    }
+    .Faq h2{
+        font-size: 20px;
+    }
+    .FaqList{
+        top: 150px;
+    }
+    .f-left div{
+        width: 230px;
+        margin: 0px auto;
+    }
+    .f-left ul li{
+        font-size: 18px;
+    }
+    .f-left h4{
+       font-size: 30px;
+       width: 270px;
+    }
+    .f-right{
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 0px;
+    }
+    .f-right h1{
+        font-size: 23px;
+        width: 90%;
+    }
+    .answers{
+        font-size: 13px;
+    }
+    
+}

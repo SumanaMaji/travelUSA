@@ -1,0 +1,314 @@
+.Information{
+    width: 100%;
+    height: 1750px;
+    background-image: url("https://images.unsplash.com/photo-1510070009289-b5bc34383727?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Information h2{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    top: 100px;
+}
+.InformList{
+    width: 100%;
+    display: flex;
+    height: fit-content;
+    position: relative;
+    top: 300px;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+.in-left{
+    padding-right: 30px;
+    width: 33%;
+    height: 100%;
+    padding-top: 30px;
+    float: left;
+}
+.in-left h4{
+    color: skyblue;
+    font-size: 25px;
+    margin-left: 80px;
+}
+.in-left div{
+    height: fit-content;
+    width: 300px;
+    float: right;
+    background-color: #ece6e6;
+    margin-top: 10px;
+}
+.in-left ul{
+    list-style: none;
+    width: 100%;
+    height: fit-content;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+.in-left ul li{
+    padding: 15px;
+    border-bottom: 2px solid orange;
+    width: 100%;
+    color: orangered;
+}
+.in-left div ul li i{
+    float: right;
+}
+.hiddenDiv li{
+    border: none;
+}
+.in-right{
+    width: 60%;
+    height: 100%;
+    padding: 30px 60px 30px 30px;
+    position: relative;
+    top: -60px;
+    background-color: #fff;
+}
+.in-right h1{
+    margin: 10px 0px 30px 0px;
+}
+.in-right p{
+    font-weight: 600;
+}
+.in-right span{
+    color: orangered;
+}
+@media(max-width: 1000px){
+    .Information{
+        height: 4390px;
+    }
+    .InformList{
+        display:grid;
+        justify-content: center;
+        height: 4050px;
+    }
+    .in-left{
+        width: 100%;
+        float: left;
+    }
+    .form-left div{
+        width: 600px;
+        float: none;
+        margin: auto;
+    }
+    .in-left ul li{
+        font-size: 25px;
+    }
+    .in-left h4{
+       font-size: 42px;
+       text-align: center;
+       margin-bottom: 20px;
+    }
+    .in-right{
+        width: 100%;
+        top: 0px;
+        height: fit-content;
+    }
+    .in-right h1{
+        font-size: 35px;
+    }
+    .in-right p{
+        font-size: 30px;
+    }
+}
+@media(max-width: 900px){
+    .Information{
+        height: 4650px;
+    }
+    .InformList{
+        height: 4300px;
+    }
+}
+@media(max-width: 800px){
+    .Information{
+        height: 5050px;
+    }
+    .InformList{
+        height: 4680px;
+    }
+}
+@media(max-width: 600px){
+    .Information{
+        height: 5070px;
+    }
+    .InformList{
+        display:grid;
+        justify-content: center;
+    }
+    .in-left{
+        width: 100%;
+        float: left;
+        padding-right: 0px;
+    }
+    .in-left div{
+        width: 500px;
+        float: none;
+        margin: auto;
+    }
+    .in-left ul li{
+        font-size: 25px;
+    }
+    .in-left h4{
+       font-size: 42px;
+       text-align: center;
+       margin-bottom: 20px;
+    }
+    .in-right{
+        width: 100%;
+        top: 0px;
+        height: fit-content;
+    }
+    .in-right h1{
+        font-size: 30px;
+    }
+    .in-right p{
+        font-size: 25px;
+    }
+}
+@media(max-width: 500px){
+    .Information{
+        height: 4000px;
+    }
+    .InformList{
+        height: 3590px;
+    }
+    .in-left div{
+        width: 320px;
+    }
+    .in-left ul li{
+        font-size: 20px;
+    }
+    .in-left h4{
+       font-size: 30px;
+       margin-left: 0px;
+    }
+    .in-right{
+        width: 100%;
+        top: 0px;
+        height: fit-content;
+    }
+    .in-right h1{
+        font-size: 30px;
+    }
+    .in-right p{
+        font-size: 18px;
+    }
+}
+@media(max-width: 400px){
+    .Information{
+        height: 3800px;
+    }
+    .InformList{
+        height: 3380px;
+    }
+    .in-left{
+        padding-right: 0px;
+    }
+    .in-left div{
+        width: 320px;
+    }
+    .in-left ul li{
+        font-size: 20px;
+    }
+    .in-left h4{
+       font-size: 30px;
+       margin-left: 0px;
+    }
+    .in-right{
+        width: 100%;
+    }
+    .in-right h1{
+        font-size: 25px;
+    }
+    .in-right p{
+        font-size: 16px;
+    }
+}
+@media(max-width: 380px){
+    .Information{
+        height: 3900px;
+    }
+    .InformList{
+        height: 3700px;
+    }
+    .in-left div{
+        width: 300px;
+    }
+    .in-left ul li{
+        font-size: 20px;
+    }
+    .in-left h4{
+       font-size: 30px;
+    }
+    .in-right{
+        width: 100%;
+    }
+    .in-right h1{
+        font-size: 25px;
+    }
+    .in-right p{
+        font-size: 16px;
+    }
+}
+@media(max-width: 370px){
+    .Information{
+        height: 3700px;
+    }
+    .InformList{
+        height: 3275px;
+    }
+    .in-left div{
+        width: 300px;
+    }
+    .in-left ul li{
+        font-size: 18px;
+    }
+    .in-left h4{
+       font-size: 30px;
+    }
+    .in-right{
+        width: 100%;
+    }
+    .in-right h1{
+        font-size: 23px;
+    }
+    .in-right p{
+        font-size: 15px;
+    }
+}
+@media(max-width: 300px){
+    .Information{
+        height: 3000px;
+    }
+    .InformList{
+        height: 2860px;
+    }
+    .Information h2{
+        font-size: 30px;
+    }
+    .in-left div{
+        width: 230px;
+        margin: 0px auto;
+    }
+    .in-left ul li{
+        font-size: 18px;
+    }
+    .in-left h4{
+       font-size: 30px;
+       width: 270px;
+    }
+    .in-right{
+        width: 100%;
+        padding-right: 0px;
+    }
+    .in-right h1{
+        font-size: 23px;
+        width: 90%;
+    }
+    .in-right p{
+        font-size: 12px;
+    }
+}

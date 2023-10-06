@@ -1,0 +1,606 @@
+.privacy-policy{
+    width: 100%;
+    height: 5900px;
+    background-image: url("https://images.unsplash.com/photo-1510070009289-b5bc34383727?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=privacy-policyat&fit=crop&w=1169&q=80");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.privacy-policy h2{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    top: 100px;
+}
+.privacyandpolicy{
+    width: 100%;
+    display: flex;
+    height: fit-content;
+    position: relative;
+    top: 300px;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+.privacy-policy-left{
+    padding-right: 30px;
+    width: 33%;
+    height: 100%;
+    padding-top: 30px;
+    float: left;
+}
+.privacy-policy-left h4{
+    color: skyblue;
+    font-size: 25px;
+    margin-left: 80px;
+}
+.privacy-policy-left div{
+    height: fit-content;
+    width: 300px;
+    float: right;
+    background-color: #ece6e6;
+    margin-top: 10px;
+}
+.privacy-policy-left ul{
+    list-style: none;
+    width: 100%;
+    height: fit-content;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+.privacy-policy-left ul li{
+    padding: 15px;
+    border-bottom: 2px solid orange;
+    width: 100%;
+    color: orangered;
+}
+.privacy-policy-left div ul li i{
+    float: right;
+}
+.hiddenDiv li{
+    border: none;
+}
+.privacy-policy-right{
+    width: 60%;
+    height: 100%;
+    padding: 30px 60px 30px 30px;
+    position: relative;
+    top: -60px;
+    background-color: #fff;
+}
+.privacy-policy-right h1{
+    margin: 10px 0px 30px 0px;
+}
+.privacy-policy-right p{
+    font-weight: 600;
+}
+.privacy-policy-right span{
+    color: orangered;
+}
+@media(max-width: 1000px){
+    .privacy-policy{
+        height: 15200px;
+        overflow: hidden;
+    }
+    .privacyandpolicy{
+        display:grid;
+        justify-content: center;
+    }
+    .privacy-policy-left{
+        width: 100%;
+        float: left;
+    }
+    .privacy-policy-left div{
+        width: 600px;
+        float: none;
+        margin: auto;
+    }
+    .privacy-policy-left ul li{
+        font-size: 25px;
+    }
+    .privacy-policy-left h4{
+       font-size: 42px;
+       text-align: center;
+       margin-bottom: 20px;
+    }
+    .privacy-policy-right{
+        width: 100%;
+        top: 0px;
+        height: fit-content;
+    }
+    .privacy-policy-right h1{
+        font-size: 35px;
+    }
+    #firstP{
+        font-size: 30px;
+    }
+    .privacy-policy-right p{
+        font-size: 30px;
+    }
+    .privacy-policy-checkbox{
+        padding-right: 0px;
+        display: grid;
+        margin-bottom: 50px;
+    }
+    .privacy-policy-checkbox input{
+        width: 40px;
+        height: 40px;
+        position: relative;
+        top: 46px;
+    }
+    .privacy-policy-checkbox label{
+        font-size: 30px;
+        margin-left: 70px;
+    }
+    .fieldInput{
+        height: 50px;
+    }
+    .fieldInput::placeholder{
+       font-size: 20px;
+    }
+    .checking{
+        height: 130px;
+    }
+    .checking label{
+        position: relative;
+        top: 12px;
+    }
+    #check{
+        width: 30px;
+        height: 30px;
+        top: 20px;
+    }
+    .checking label span{
+        font-size: 25px;
+        position: relative;
+        top: 15px;
+        left: 10px;
+    }
+    .checking img{
+        height: 30px;
+        width: 30px;
+        margin-left: 100px;
+        margin-right: 15px;
+    }
+    .recaptcha{
+        font-size: 20px;
+    }
+    .checking p{
+        font-size: 20px;
+        position: relative;
+        left: 100px;
+        top: 0px;
+    }
+    .privacy-policy-right button{
+        font-size: 30px;
+        padding: 10px 50px;
+        margin-top: 20px;
+    }
+}
+@media(max-width: 900px){
+    .privacy-policy{
+        height: 16650px;
+    }
+}
+@media(max-width: 800px){
+    .privacy-policy{
+        height: 17600px;
+    }
+}
+@media(max-width: 600px){
+    .privacy-policy{
+        height: 18230px;
+    }
+    .privacyandpolicy{
+        display:grid;
+        justify-content: center;
+    }
+    .privacy-policy-left{
+        width: 100%;
+        float: left;
+        padding-right: 0px;
+    }
+    .privacy-policy-left div{
+        width: 500px;
+        float: none;
+        margin: auto;
+    }
+    .privacy-policy-left ul li{
+        font-size: 25px;
+    }
+    .privacy-policy-left h4{
+       font-size: 42px;
+       text-align: center;
+       margin-bottom: 20px;
+    }
+    .privacy-policy-right{
+        width: 100%;
+        top: 0px;
+        height: fit-content;
+    }
+    .privacy-policy-right h1{
+        font-size: 30px;
+    }
+    #firstP{
+        font-size: 25px;
+    }
+    .privacy-policy-right p{
+        font-size: 25px;
+    }
+    .privacy-policy-checkbox{
+        padding-right: 0px;
+        display: grid;
+        margin-bottom: 50px;
+    }
+    .privacy-policy-checkbox input{
+        width: 30px;
+        height: 30px;
+        position: relative;
+        top: 38px;
+    }
+    .privacy-policy-checkbox label{
+        font-size: 25px;
+        margin-left: 50px;
+    }
+    .fieldInput{
+        height: 50px;
+    }
+    .fieldInput::placeholder{
+       font-size: 20px;
+    }
+    .checking{
+        height: 100px;
+    }
+    .checking label{
+        position: relative;
+        top: 12px;
+        font-size: 18px;
+    }
+    #check{
+        width: 25px;
+        height: 25px;
+        top: 20px;
+    }
+    .checking label span{
+        font-size: 23px;
+        position: relative;
+        top: 15px;
+        left: 10px;
+    }
+    .checking img{
+        height: 30px;
+        width: 30px;
+        margin-left: 80px;
+        margin-right: 15px;
+    }
+    .recaptcha{
+        font-size: 15px;
+    }
+    .checking p{
+        font-size: 15px;
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+    .privacy-policy-right button{
+        font-size: 25px;
+        padding: 10px 50px;
+        margin-top: 20px;
+    }
+}
+@media(max-width: 500px){
+    .privacy-policy{
+        height: 15650px;
+    }
+    
+    .privacy-policy-left div{
+        width: 320px;
+    }
+    .privacy-policy-left ul li{
+        font-size: 20px;
+    }
+    .privacy-policy-left h4{
+       font-size: 30px;
+       margin-left: 0px;
+    }
+    .privacy-policy-right{
+        width: 100%;
+        top: 0px;
+        height: fit-content;
+    }
+    .privacy-policy-right h1{
+        font-size: 30px;
+    }
+    #firstP{
+        font-size: 30px;
+    }
+    .privacy-policy-right p{
+        font-size: 20px;
+    }
+    .privacy-policy-checkbox{
+        padding-right: 0px;
+        display: grid;
+        margin-bottom: 50px;
+    }
+    .privacy-policy-checkbox input{
+        height: 20px;
+        width: 20px;
+        top: 25px;
+    }
+    .privacy-policy-checkbox label{
+        font-size: 20px;
+    }
+    .checking{
+        height: 100px;
+    }
+    .checking label{
+        position: relative;
+        top: 12px;
+    }
+    #check{
+        width: 20px;
+        height: 20px;
+        top: 0px;
+    }
+    .checking label span{
+        font-size: 20px;
+        position: relative;
+        top: 0px;
+        left: 10px;
+    }
+    .checking img{
+        height: 35px;
+        width: 35px;
+        margin-left: 30px;
+    }
+    .recaptcha{
+        font-size: 15px;
+        transprivacy-policy: translate(0px,0px);
+    }
+    .checking p{
+        font-size: 15px;
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+    .privacy-policy-right button{
+        font-size: 25px;
+        padding: 10px 50px;
+    }
+}
+@media(max-width: 400px){
+    .privacy-policy{
+        height: 15600px;
+    }
+    .privacy-policy-left{
+        padding-right: 0px;
+    }
+    .privacy-policy-left div{
+        width: 320px;
+    }
+    .privacy-policy-left ul li{
+        font-size: 20px;
+    }
+    .privacy-policy-left h4{
+       font-size: 30px;
+       margin-left: 0px;
+    }
+    .privacy-policy-right{
+        width: 100%;
+    }
+    .privacy-policy-right h1{
+        font-size: 25px;
+    }
+    #firstP{
+        font-size: 20px;
+    }
+    .privacy-policy-right p{
+        font-size: 20px;
+    }
+    .privacy-policy-checkbox{
+        padding-right: 0px;
+        display: grid;
+        margin-bottom: 50px;
+    }
+    .checking{
+        height: 100px;
+    }
+    #check{
+        width: 30px;
+        height: 30px;
+    }
+    .checking label span{
+        font-size: 20px;
+        top: -5px;
+        left: 10px;
+    }
+    .checking img{
+        height: 35px;
+        width: 35px;
+        margin-left: 30px;
+    }
+    .recaptcha{
+        font-size: 15px;
+    }
+    .checking p{
+        font-size: 15px;
+    }
+    .privacy-policy-right button{
+        font-size: 25px;
+        padding: 10px 50px;
+        margin-top: 20px;
+    }
+}
+@media(max-width: 380px){
+    .privacy-policy{
+        height: 9020px;
+        background-size: cover;
+    }
+    .privacy-policy-left div{
+        width: 300px;
+    }
+    .privacy-policy-left ul li{
+        font-size: 20px;
+    }
+    .privacy-policy-left h4{
+       font-size: 30px;
+    }
+    .privacy-policy-right{
+        width: 100%;
+        padding: 10px;
+    }
+    .privacy-policy-right h1{
+        font-size: 25px;
+    }
+    #firstP{
+        font-size: 20px;
+    }
+    .privacy-policy-right p{
+        font-size: 15px;
+    }
+    .privacy-policy-checkbox{
+        padding-right: 0px;
+        display: grid;
+        margin-bottom: 50px;
+    }
+    .privacy-policy-checkbox input{
+       height: 25px;
+       width: 25px;
+       top: 28px;
+    }
+    .privacy-policy-checkbox label{
+        font-size: 18px;
+    }
+    .fieldInput{
+        height: 50px;
+    }
+    .fieldInput::placeholder{
+        font-size: 20px;
+    }
+    .checking{
+        height: 100px;
+    }
+    #check{
+        width: 30px;
+        height: 30px;
+    }
+    .checking label span{
+        font-size: 18px;
+    }
+    .checking img{
+        height: 30px;
+        width: 30px;
+    }
+    .recaptcha{
+        font-size: 15px;
+    }
+    .checking p{
+        font-size: 15px;
+    }
+    .privacy-policy-right button{
+        font-size: 20px;
+        padding: 10px 50px;
+        margin-top: 20px;
+    }
+}
+@media(max-width: 370px){
+    .privacy-policy{
+        height: 12690px;
+    }
+    .privacy-policy-left div{
+        width: 300px;
+    }
+    .privacy-policy-left ul li{
+        font-size: 18px;
+    }
+    .privacy-policy-left h4{
+       font-size: 30px;
+    }
+    .privacy-policy-right{
+        width: 100%;
+    }
+    .privacy-policy-right h1{
+        font-size: 23px;
+    }
+    #firstP{
+        font-size: 18px;
+    }
+    .privacy-policy-right p{
+        font-size: 18px;
+    }
+    .privacy-policy-checkbox{
+        padding-right: 0px;
+        display: grid;
+        margin-bottom: 50px;
+    }
+    .privacy-policy-checkbox input{
+       height: 25px;
+       width: 25px;
+       top: 28px;
+    }
+    .privacy-policy-checkbox label{
+        font-size: 17px;
+    }
+    .fieldInput{
+        height: 40px;
+    }
+    .fieldInput::placeholder{
+        font-size: 15px;
+    }
+    .checking{
+        height: 80px;
+    }
+    #check{
+        width: 25px;
+        height: 25px;
+    }
+    .checking label span{
+        font-size: 16px;
+    }
+    .checking img{
+        height: 25px;
+        width: 25px;
+    }
+    .recaptcha{
+        font-size: 12px;
+    }
+    .checking p{
+        font-size: 12px;
+        transprivacy-policy: translate(0px,-10px);
+    }
+    .privacy-policy-right button{
+        font-size: 20px;
+        padding: 10px 50px;
+        margin-top: 20px;
+    }
+}
+@media(max-width: 300px){
+    .privacy-policy{
+        height: 8000px;
+    }
+    .privacy-policy h2{
+        font-size: 30px;
+    }
+    .privacy-policy-left div{
+        width: 230px;
+        margin: 0px auto;
+    }
+    .privacy-policy-left ul li{
+        font-size: 18px;
+    }
+    .privacy-policy-left h4{
+       font-size: 30px;
+       width: 270px;
+    }
+    .privacy-policy-right{
+        width: 100%;
+        
+    }
+    .privacy-policy-right h1{
+        font-size: 23px;
+        width: 90%;
+    }
+    .privacy-policy-right p{
+        font-size: 12px;
+    }
+    
+}

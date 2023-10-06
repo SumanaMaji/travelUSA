@@ -1,0 +1,581 @@
+.experience-container{
+    width: 100%;
+    height: fit-content;
+}
+.background_image{
+    background-image: url('https://plus.unsplash.com/premium_photo-1675805015392-28fd80c551ec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80');
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+.background_image h1{
+    text-align: center;
+    transform: translate(0px, 60px);
+    color: white;
+}
+.background_image p{
+    width: 600px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    transform: translate(0px, 70px);
+    color: white;
+}
+
+/* For input field */
+.input-field{
+    width: 100%;
+    height: 130px;
+    border-bottom: 1px solid rgb(167, 167, 167);
+}
+.input-field div{
+    width: 30%;
+    height: 50px;
+    margin: auto;
+    padding-top: 60px;
+}
+.input-field div input{
+    background-color: rgb(226, 226, 226);
+}
+.input-field i{
+    position: relative;
+    top: -30px;
+    left: 340px;
+    color: orangered;
+}
+
+/* For buttons */
+.buttons-container{
+    width: 100%;
+    height: 50px;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 50px;
+}
+.buttons-container button{
+    width: 40%;
+    height: 100%;
+    border: 2px solid orangered;
+    justify-content: space-between;
+    display: flex;
+    background-color: white;
+    color: orangered;
+}
+.buttons-container button i{
+    font-size: 30px;
+}
+
+/* Popular images */
+.popularDiv{
+    width: 80%;
+    height: fit-content;
+    border-bottom: 1px solid rgb(175, 175, 175);
+    margin: auto;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+#popular-p{
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(1, 1, 147);
+}
+.popular-images{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.popular-image{
+    height: fit-content;
+    width: 23%;
+    margin: 0px auto;
+
+}
+.popular-image img{
+    height: 130px;
+    width: 100%;
+}
+.p-exp{
+    color: orangered;
+    font-size: 18px;
+    font-weight: 500;
+}
+.p-places{
+    color: rgb(2, 2, 145);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Feature experiences  */
+.feature-experiences{
+    width: 80%;
+    background-color: #89d8ef;
+    margin: auto;
+    height: 200px;
+    margin-top: 50px;
+}
+.feature-experiences h1{
+    text-align: center;
+    transform: translate(0px, 25px);
+    color: rgb(1, 1, 103);
+    font-size: 30px;
+}
+.feature-images{
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    position: relative;
+    top: 65px;
+}
+.feature-image{
+    height: fit-content;
+    width: 32%;
+    margin: 0px auto;
+}
+.feature-image img{
+    height: 130px;
+    width: 100%;
+}
+.f-exp{
+    color: orangered;
+    font-size: 18px;
+    font-weight: 500;
+}
+.f-places{
+    color: rgb(2, 2, 145);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* All Experiences */
+.all-experiences{
+    width: 100%;
+    height: fit-content;
+    margin-top: 200px;
+}
+.all-experiences h3{
+    text-align:center;
+color: rgb(2, 2, 135);
+
+}
+.whole-images{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+.whole-images-row{
+    display: flex;
+    margin-bottom: 20px;
+}
+.whole-images-image{
+    height: fit-content;
+    width: 23%;
+    margin: 0px auto;
+
+}
+.whole-images-image img{
+    height: 130px;
+    width: 100%;
+}
+.whole-images-exp{
+    color: orangered;
+    font-size: 18px;
+    font-weight: 500;
+}
+.whole-images-places{
+    color: rgb(2, 2, 145);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* For pagination */
+.pagination{
+    margin: auto;
+}
+
+/* Topices */
+
+.topics{
+    width: 80%;
+    height: fit-content;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.topices{
+    width: 100%;
+    height: fit-content;
+    border-bottom: 2px solid rgb(200, 199, 199);
+    padding-bottom: 29px;
+    padding-top: 50px;
+}
+.topices p{
+    font-size: 18px;
+    color: skyblue;
+    font-weight: 500;
+}
+.flexBox{
+    display: contents;
+    margin: 6px 10px 6px 6px;
+}
+.topices input{
+    margin-right: 5px;
+    border: 2px solid orangered;
+    height: 20px;
+    width: 20px;
+}
+.topices label{
+    margin-right: 30px;
+    font-weight: 500;
+    color: rgb(1, 1, 125);
+}
+.topics button{
+    border: none;
+    background-color: orangered;
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 20px;
+    padding: 10px 30px;
+    color: white;
+}
+
+/* Region */
+.regions{
+    width: 80%;
+    height: fit-content;
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.region{
+    height: 100%;
+    width: 14%;
+    display: block;
+    padding: 5px;
+}
+.region img{
+    width: 20px;
+    height: 80px;
+}
+.region p{
+    font-weight: 600;
+    color: skyblue;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.region input{
+    margin-right: 10px;
+    border: 2px solid orangered;
+}
+.region label{
+    font-size: 15px;
+    color: rgb(1, 1, 122);
+    font-weight: 500;
+    row-gap: 10px;
+    margin-bottom: 15px;
+}
+.region-button{
+    margin-left: 150px;
+}
+.region-button button{
+    border: none;
+    background-color: orangered;
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 20px;
+    padding: 10px 30px;
+    color: white;
+}
+
+@media(max-width: 1300px){
+    .region img{
+        width: 130px;
+    }
+}
+@media(max-width: 1025px){
+    .input-field i{
+        left: 280px;
+    }
+    .region img{
+        width: 100%;
+    }
+    .region-button{
+        margin-left: 120px;
+    }
+}
+@media(max-width: 1000px){
+    .input-field i{
+        left: 240px;
+    }
+    .region-button{
+        margin-left: 100px;
+        margin-bottom: 100px;
+    }
+}
+@media(max-width: 900px){
+    .input-field i{
+        left: 220px;
+    }
+    .regions{
+        width: 90%;
+    }
+    .region-button{
+        margin-left: 60px;
+    }
+}
+@media(max-width: 800px){
+    .input-field i{
+        left: 200px;
+    }
+    .regions{
+        column-count: 5;
+    }
+    .region{
+        padding: 5px;
+    }
+    .region label{
+        font-size: 13px;
+    }
+}
+@media(max-width: 700px){
+    .experience-container{
+        margin-bottom: 50px;
+    }
+    .input-field div{
+        width: 300px;
+        left: -100px;
+    }
+    .input-field i{
+        left: 260px;
+    }
+    .background_image p{
+        width: 500px;
+        color: white;
+    }
+    .buttons-container{
+        height: 40px;
+    }
+    .popular-image img{
+        height: 100px;
+    }
+    .p-exp{
+        font-size: 15px;
+    }
+    .p-places{
+        font-size: 13px;
+    }
+    .feature-images{
+        top: 80px;
+    }
+    .feature-image img{
+        height: 100px;
+    }
+    .whole-images-image img{
+        height: 100px;
+    }
+    .whole-images-exp{
+        font-size: 15px;
+    }
+    .whole-images-places{
+        font-size: 15px;
+    }
+    /* .topices form div{
+        width: fit-content;
+        display: flex;
+    }
+    .topices form{
+        display:block;
+    } */
+    .region img{
+        height: 50px;
+    }
+    .region p{
+        font-size: 12px;
+    }
+    .region label{
+        font-size: 12px;
+    }
+    .region-button{
+        margin-left: 30px;
+    }
+}
+@media(max-width: 500px){
+    .input-field div{
+        width: 300px;
+        left: -100px;
+    }
+    .input-field i{
+        left: 260px;
+    }
+    .background_image p{
+        width: 400px;
+        color: white;
+        font-size: 13px;
+    }
+    .buttons-container{
+        height: 40px;
+    }
+    .popular-image img{
+        height: 80px;
+    }
+    .p-exp{
+        font-size: 13px;
+    }
+    .p-places{
+        font-size: 12px;
+    }
+    .feature-experiences h1{
+        font-size: 25px;
+    }
+    .feature-images{
+        top: 120px;
+    }
+    .feature-image img{
+        height: 80px;
+    }
+    .whole-images-image img{
+        height: 100px;
+    }
+    .whole-images-exp{
+        font-size: 13px;
+    }
+    .whole-images-places{
+        font-size: 12px;
+    }
+    .region-button{
+        margin-left: 50px;
+    }
+    .regions{
+        display: grid;
+        margin: 0px;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .region{
+        width: 350px;
+        margin: auto;
+    }
+    .region img{
+        height: 150px;
+        width: 80%;
+        margin-left: 40px;
+    }
+    .region p{
+        font-size: 25px;
+    }
+    .region form{
+        margin: auto;
+        align-items: center;
+    }
+    .region input{
+        width: 20px;
+        height: 20px;
+    }
+    .region label{
+        font-size: 18px;
+    }
+    .topices form span{
+        display: flex;
+        margin-bottom: 5px;
+    }
+    .topices p{
+        font-size: 25px;
+    }
+    .topices form input{
+        margin-right: 25px;
+        width: 25px;
+        height: 25px;
+    }
+    .topices form label{
+        font-size: 18px;
+    }
+    
+}
+@media(max-width: 400px){
+    .background_image p{
+        width: 350px;
+        color: white;
+        font-size: 12px;
+    }
+}
+@media(max-width: 370px){
+    .feature-experiences{
+        height: 150px;
+    }
+    .feature-images{
+        top: 50px;
+    }
+    
+}
+@media(max-width: 300px){
+    .background_image p{
+        width: 250px;
+        color: white;
+        font-size: 12px;
+    }
+    .input-field div{
+        width: 200px;
+    }
+    .input-field i{
+        left: 170px;
+    }
+    .popular-images{
+        display: block;
+    }
+    .popular-image{
+        width: 100%;
+    }
+    .popular-image img{
+        height: 100px;
+    }
+    .p-exp{
+        font-size: 16px;
+    }
+    .p-places{
+        font-size: 13px;
+    }
+    .feature-experiences{
+        height: 120px;
+    }
+    .feature-experiences h1{
+        font-size: 20px;
+    }
+     .feature-images{
+        width: 100%;
+        top: 30px;
+    }
+    .f-exp{
+        font-size: 13px;
+    }
+    .f-places{
+        font-size: 12px;
+    }
+    .whole-images-image img{
+        height: 80px;
+    }
+    .whole-images-exp{
+        font-size: 12px;
+    }
+    .whole-images-places{
+        font-size: 12px;
+    }
+    .all-experiences h3{
+        font-size: 20px;
+    }
+    .region{
+        width: 100%;
+    }
+    .region img{
+        height: 120px;
+        margin-left: 30px;
+    }
+    .topices form span{
+        display: flex;
+    }
+}

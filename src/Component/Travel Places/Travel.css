@@ -1,0 +1,910 @@
+.Travel{
+    width: 100%;
+    height: fit-content;
+}
+.upperImage{
+    width: 100%;
+    height: 500px;
+    background-image: url('https://ik.imagekit.io/ikmedia/backlit.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.upperImage h1{
+    color: white;
+    position: relative;
+    top: 48%;
+    left: 300px;
+    width: fit-content;
+}
+.map-paragraph{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.map{
+    width: 28%;
+    height: fit-content;
+    position: relative;
+    top: -50px;
+}
+.map iframe{
+    width: 100%;
+    height: 400px;
+    margin: 0px;
+}
+.buttons{
+    position: relative;
+    top: 0px;
+    left: 00px;
+    width: 250px;
+    margin: 0px;
+}
+.buttons button{
+    background-color: orangered;
+    color: white;
+}
+.btnfirst{
+    border-right: 5px solid white;
+}
+.paragraph{
+    width: 72%;
+    height: fit-content;
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-left: 50px;
+}
+.paragraph h1{
+    font-size: 30px;
+}
+.paragraph p{
+    font-style: arial;
+}
+.travelImage{
+   width: 100%;
+   height: 600px;
+   position: relative;
+   top: 200px;
+}
+.place{
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    position: relative;
+    top: 250px;
+}
+.placeDescription{
+    width: 70%;
+    height: fit-content;
+    padding: 60px;
+    position: relative;
+    top: -120px;
+    left: 0px;
+    background-color: #fff;
+}
+.placeDescription h1{
+    color: rgb(1, 1, 92);
+}
+.placeDescription p{
+    font-weight: 500;
+}
+.placeInfo{
+    display: block;
+    width: 30%;
+    padding-left: 30px;
+    height: fit-content;
+}
+#information::after{
+   content: "";
+   width: 100px;
+   height: 3px;
+   background-color: rgb(1, 1, 92);
+   position: absolute;
+   top: 13px;
+   margin-left: 10px;
+}
+#you-may-enjoy::after{
+    content: "";
+   width: 100px;
+   height: 3px;
+   background-color: rgb(1, 1, 92);
+   position: absolute;
+   top: 92px;
+   margin-left: 10px;
+}
+.placeInfo p{
+    font-weight: 500;
+}
+#placeName{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.placeInfo img{
+    width: 300px;
+    height: 200px;
+}
+.icons{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 260px;
+    left: 930px;
+    color: skyblue;
+}
+.dashed{
+    height: 50px;
+    width: 1px;
+    border: 1px dashed skyblue;
+    margin-left: 6px;
+}
+.dash2{
+    height: 150px;
+}
+.Slider{
+    height: 600px;
+    position: relative;
+    top: 200px;
+}
+.skyblue-area{
+    width: 100%;
+    height: 200px;
+    background-color: skyblue;
+    position: relative;
+    top: 300px;
+}
+.image-portion{
+    width: 30%;
+    height: 180px;
+    position: relative;
+    top: 50px;
+    display: flex;
+    float: right;
+    right: 100px;
+    justify-content: space-between;
+}
+.skyblue-area p{
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    top: 50px;
+    left: 200px;
+    width: fit-content;
+}
+.first-image{
+   width: 48%;
+   height: 100%;
+}
+.last-image{
+    width: 48%;
+    height: 100%;
+}
+.first-image img{
+    width: 100%;
+    height: 90%;
+}
+.last-image img{
+    width: 100%;
+    height: 90%;
+}
+.first-image p{
+    font-size: 15px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+.last-image p{
+    font-size: 15px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+.lastImage{
+    width: 100%;
+    height: 300px;
+    background-image: url('https://ik.imagekit.io/ikmedia/backlit.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 400px;
+}
+.lastImage h1{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 450px;
+}
+.fullvideos{
+    width: 80%;
+    height: fit-content;
+    margin: auto;
+    position: relative;
+    top: 300px;
+}
+.firstVideo, .lastVideo{
+    width: 100%;
+    height: fit-content;
+    justify-content: space-between;
+    display: flex;
+}
+.Video{
+    width: 30%;
+    height: 100%;
+}
+.Video iframe{
+    width: 100%;
+    height: 70%;
+}
+.fullvideos button{
+    position: relative;
+    top: 50px;
+    left: 450px;
+    color: white;
+    font-weight: 500;
+    background-color: orangered;
+}
+.fullImage{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    position: relative;
+    top: 400px;
+    padding-top: 50px;
+    background-color: rgb(224, 224, 224);
+    margin-bottom: 160px;
+}
+.fullImage h3{
+    text-align: center;
+    color: rgb(1, 1, 92);
+}
+.Images{
+    display: flex;
+    margin: auto;
+    width: 70%;
+    height: 300px;
+    margin-top: 20px;
+}
+.leftImage{
+    display: grid;
+    width: 50%;
+    height: 100%;
+}
+.leftImage div{
+    display: flex;
+}
+.leftImage img{
+    width: 120px;
+    height: 80px;
+}
+.rightImage{
+    display: grid;
+    width: 50%;
+    height: 100%;
+}
+.rightImage div{
+    display: flex;
+}
+.rightImage img{
+    width: 120px;
+    height: 80px;
+}
+.leftImage span p:first-child{
+    color: orangered;
+    margin-left: 10px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.leftImage span p:last-child{
+    color: rgb(1, 1, 92);
+    margin-left: 10px;
+    font-weight: 500;
+}
+.rightImage span p:first-child{
+    color: orangered;
+    margin-left: 10px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.rightImage span p:last-child{
+    color: rgb(1, 1, 92);
+    margin-left: 10px;
+    font-weight: 500;
+}
+.fullImage button{
+    background-color: orangered;
+    border: none;
+    padding: 10px 40px;
+    position: relative;
+    left: 460px;
+    color: white;
+}
+@media(max-width: 1025px){
+    .icons{
+    left: 750px;
+    width: 200px;
+    }
+    .placeInfo img{
+        width: 260px;
+    }
+}
+@media(max-width: 1000px){
+    .Travel{
+        height: 16600px;
+    }
+    .upperImage h1{
+        left: 200px;
+    }
+    #travelImage{
+        margin-top: 0px;
+    }
+    
+    .icons{
+    left: 680px;
+    width: 200px;
+    top: 320px;
+    }
+    .placeInfo img{
+        width: 220px;
+    }
+    .placeDescription{
+        padding: 60px;
+    }
+    .placeDescription h1{
+        font-size: 30px;
+    }
+    
+    .place{
+        height: 460px;
+    }
+    #information{
+        font-size: 20px;
+    }
+    #information::after{
+        width: 50px;
+    }
+    #you-may-enjoy{
+        font-size: 20px;
+    }
+    #you-may-enjoy::after{
+        width: 50px;
+        top: 105px;
+    }
+    #warning{
+        font-size: 20px;
+    }
+    
+    .icons i{
+        font-size: 20px;
+    }
+    .icons span{
+        font-size: 20px;
+    }
+    .skyblue-area p{
+        font-size: 25px;
+    }
+    .image-portion{
+        width: 40%;
+    }
+    .first-image p, .last-image p{
+        font-size: 20px;
+    }
+    .lastImage h1{
+        left: 300px;
+    }
+    .worn{
+        font-size: 20px;
+    }
+    .des{
+        font-size: 20px;
+    }
+    .fullvideos button{
+        top: 160px;
+        left: 280px;
+    }
+    .fullImage{
+        top: 500px;
+    }
+    .fullImage h3{
+        font-size: 30px;
+    }
+    .fullImage button{
+        left: 280px;
+    }
+}
+@media(max-width: 900px){
+    .icons{
+    left: 600px;
+    width: 200px;
+    top: 320px;
+    }
+    #information::after{
+        width: 40px;
+    }
+    .fullvideos button{
+        top: 160px;
+        left: 260px;
+    }
+    .fullImage button{
+        left: 260px;
+    }
+}
+@media(max-width: 800px){
+    .icons{
+    left: 560px;
+    width: 200px;
+    top: 320px;
+    }
+    .placeInfo img{
+        width: 190px;
+        height: 190px;
+    }
+    #information::after{
+        width: 20px;
+    }
+    .fullvideos button{
+        top: 160px;
+        left: 260px;
+    }
+    .fullImage button{
+        left: 260px;
+    }
+    #warning{
+        width: fit-content;
+    }
+    #you-may-enjoy{
+        width: fit-content;
+    }
+    .skyblue-area p{
+        left: 10%;
+    }
+    .first-image p, .last-image p{
+        font-size: 18px;
+        left: 0px;
+    }
+    .lastImage h1{
+        left: 220px;
+    }
+    .worn{
+        font-size: 16px;
+    }
+    .des{
+        font-size: 15px;
+    }
+    .fullvideos button{
+        top: 100px;
+    }
+    .Images{
+        width: 80%;
+    }
+    .leftImage span p:first-child{
+        font-size: 15px;
+    }
+    .leftImage span p:last-child{
+        font-size: 15px;
+    }
+    .rightImage span p:first-child{
+        font-size: 15px;
+    }
+    .rightImage span p:last-child{
+        font-size: 15px;
+    }
+    .fullImage button{
+        left: 240px;
+    }
+}
+@media(max-width: 600px){
+    .Travel{
+        height: 14500px;
+    }
+    .upperImage{
+        height: 400px;
+    }
+    .upperImage h1{
+        left: 90px;
+        font-size: 28px;
+    }
+    .travelImage{
+        height: 420px;
+    }
+    .map{
+        width: 40%;
+    }
+    .map iframe{
+        height: 250px;
+    }
+    .buttons{
+        width: 100%;
+    }
+    .Slider{
+        height: fit-content;
+    }
+    .paragraph{
+        width: 60%;
+    }
+    .paragraph h1{
+        font-size: 20px;
+        width: 270px;
+    }
+    .paragraph p{
+        width: 270px;
+    }
+    .icons{
+    left: 340px;
+    width: 200px;
+    top: 280px;
+    }
+    .icons span{
+        font-size: 15px;
+    }
+    #information::after{
+        width: 40px;
+    }
+    .fullvideos button{
+        top: 160px;
+        left: 260px;
+    }
+    .fullImage button{
+        left: 260px;
+    }
+    .placeDescription{
+        width: 60%;
+        padding: 20px;
+    }
+    .placeDescription h1{
+        font-size: 25px;
+    }
+    .placeDescription p{
+        font-size: 15px;
+    }
+    .placeInfo{
+        width: 40%;
+        padding-left: 10px;
+    }
+    #information{
+        font-size: 16px;
+    }
+    #warning{
+        font-size: 16px;
+    }
+    #you-may-enjoy{
+        font-size: 16px;
+    }
+    .icon{
+       left: 100px;
+    }
+    .image-portion{
+        height: 150px;
+    }
+    .first-image p, .last-image p{
+        font-size: 15px;
+    }
+    .lastImage h1{
+        left: 150px;
+    }
+    .des{
+        font-size: 13px;
+    }
+    .fullvideos button{
+        top: 10px;
+        left: 150px;
+    }
+    .fullImage{
+        top: 400px;
+    }
+    .leftImage img, .rightImage img{
+        width: 100px;
+        height: 60px;
+    }
+    .fullImage span p:first-child{
+        font-size: 12px;
+    }
+    .fullImage span p:last-child{
+        font-size: 12px;
+    }
+    .fullImage button{
+        left: 150px;
+    }
+}
+@media(max-width: 500px){
+    .Travel{
+        height: 16200px;
+    }
+    .upperImage{
+        height: 400px;
+    }
+    .upperImage h1{
+        left: 30px;
+        font-size: 25px;
+    }
+    .travelImage{
+        height: 400px;
+        margin-top: 200px;
+    }
+    .Slider{
+        margin-top: 200px;
+    }
+    .map{
+        width: 20%;
+        height: 100px;
+    }
+    .map iframe{
+        height: 100%;
+    }
+    .buttons{
+        width: 100%;
+    }
+    .paragraph{
+        width: 80%;
+        padding: 20px;
+    }
+    .paragraph h1{
+        font-size: 18px;
+        width: 270px;
+    }
+    .paragraph p{
+        width: 270px;
+        font-size: 13px;
+    }
+    .place{
+        display: grid;
+    }
+    .icons{
+    left: 200px;
+    width: 150px;
+    top: 500px;
+    }
+    .icons span{
+        font-size: 15px;
+    }
+    #information{
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    #information::after{
+        width: 100px;
+        top: 320px;
+    }
+    #warning{
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    #you-may-enjoy{
+        font-size: 20px;
+    }
+    #you-may-enjoy::after{
+        top: 380px;
+        width: 100px;
+        font-size: 20px;
+    }
+    .placeInfo{
+        width: 100%;
+        padding: 10px;
+    }
+    .placeInfo img{
+        width: 100%;
+    }
+    .fullvideos button{
+        top: 160px;
+        left: 260px;
+    }
+    .fullImage button{
+        left: 260px;
+    }
+    .placeDescription{
+        width: 100%;
+        padding: 20px;
+        top: 0px;
+    }
+    .placeDescription h1{
+        font-size: 25px;
+    }
+    .placeDescription p{
+        font-size: 12px;
+    }
+    .image-portion{
+        height: 150px;
+    }
+    .first-image p, .last-image p{
+        font-size: 15px;
+    }
+    .lastImage h1{
+        left: 100px;
+    }
+    .des{
+        font-size: 13px;
+    }
+    .fullvideos button{
+        top: 10px;
+        left: 100px;
+    }
+    .fullImage{
+        top: 600px;
+        height: 600px;
+    }
+    .leftImage img, .rightImage img{
+        width: 100px;
+        height: 60px;
+    }
+    .fullImage span p:first-child{
+        font-size: 12px;
+    }
+    .fullImage span p:last-child{
+        font-size: 12px;
+    }
+    .fullImage button{
+        left: 100px;
+        top: 100px;
+    }
+    .previous{
+        height: 276px;
+    }
+    .next{
+        height: 276px;
+    }
+    .skyblue-area{
+        top: 520px;
+    }
+    .lastImage{
+        top: 630px;
+    }
+    .fullvideos{
+        top: 500px;
+    }
+    .Video iframe{
+        height: 30%;
+    }
+    .Images{
+        justify-content: space-between;
+    }
+    .leftImage{
+        width: 48%;
+    }
+    .rightImage{
+        width: 48%;
+    }
+    .leftImage div{
+        display: grid;
+    }
+    .Images img{
+       width: 100%;
+    }
+    .rightImage div{
+        display: grid;
+    }
+}
+@media(max-width: 400px){
+    .upperImage h1{
+        font-size: 23px;
+    }
+    #information::after{
+        top: 353px;
+    }
+    #you-may-enjoy::after{
+        top: 415px;
+    }
+    .image-portion{
+        height: 120px;
+        width: 200px;
+        top: 100px;
+        right: 50px;
+    }
+    .fullvideos button{
+       left: 90px;
+    }
+    .fullImage button{
+        left: 90px;
+    }
+}
+@media(max-width: 370px){
+
+}
+@media(max-width: 370px) {
+    .upperImage h1{
+        font-size: 20px;
+    }
+}
+@media(max-width: 300px) {
+    .Travel{
+        height: 14900px;
+    }
+    .upperImage{
+        height: 300px;
+    }
+    .upperImage h1{
+        font-size: 16px;
+    }
+    .travelImage{
+        height: 300px;
+        margin-top: 500px;
+    }
+    .travelImage:first-child{
+        margin-top: 0px;
+    }
+    .map{
+        display: none;
+    }
+    .paragraph{
+        width: 98%;
+        padding: 0px;
+        padding-top: 20px;
+        text-align: left;
+    }
+    .paragraph h1{
+        padding-left: 10px;
+    }
+    .icons{
+        display: none;
+    }
+    #information::after{
+        top: 444px;
+        width: 80px;
+    }
+    #you-may-enjoy::after{
+        top: 508px;
+    }
+    #information::after:first-child{
+        top: 500;
+        width: 80px;
+    }
+    #information::after:nth-child(2){
+        top: 472px;
+        width: 80px;
+    }
+    #you-may-enjoy::after:nth-child(1){
+        top: 535px;
+    }
+    #you-may-enjoy::after:nth-child(2){
+        top: 535px;
+    }
+    #travelImage{
+        margin-top: 0px;
+    }
+    .skyblue-area{
+        height: 150px;
+        top: 630px;
+    }
+    .skyblue-area p{
+        font-size: 15px;
+    }
+    .image-portion{
+        top: 50px;
+        right: 30px;
+    }
+    .lastImage{
+        top: 730px;
+        height: 250px;
+    }
+    .lastImage h1{
+        font-size: 25px;
+        left: 25px;
+    }
+    .fullvideos{
+        top: 650px;
+    }
+    .fullvideos button{
+        left: 50px;
+    }
+    .fullImage{
+        top: 700px;
+    }
+    .Video iframe{
+        height: 100px;
+    }
+    .fullImage button{
+        left: 55px;
+        top: 120px;
+        padding: 10px 30px;
+    }
+    .Slider{
+        position: relative;
+        top: 660px;
+        margin-top: 0px;
+        margin-bottom: 420px;
+        height: fit-content;
+    }
+    .previous{
+        height: 100%;
+    }
+    .next{
+        height: 100%;
+    }
+}

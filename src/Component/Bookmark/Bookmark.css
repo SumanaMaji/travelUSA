@@ -1,0 +1,505 @@
+.bookmark-container{
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 50px;
+}
+.header-image{
+    width: 100%;
+    height: 300px;
+    background-image: url('https://images.unsplash.com/photo-1621155346337-1d19476ba7d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGltYWdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header-image h1{
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+.header-image p{
+    text-align: center;
+    color: white;
+    width: 500px;
+    margin: auto;
+}
+.buttonGroup{
+   position: relative;
+   left: 32%;
+   top: 30px;
+   width: fit-content;
+}
+.buttonGroup button{
+    height: 50px;
+    width: 200px;
+    margin-right: 20px;
+    border: none;
+    background-color: orangered;
+    color: white;
+}
+.share{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    top: -272.5px;
+    left: 100px;
+    padding-top: 18px;
+    padding-left: 18px;
+    color: white;
+}
+.america-image{
+    height: 500px;
+    width: 80%;
+    position: relative;
+    left: 100px;
+    top: -50px;
+}
+.footer-image{
+    width: 90%;
+    height: 300px;
+    background-image: url('https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.footer-image h1{
+    text-align: center;
+    padding-top: 120px;
+    color: white;
+}
+.footer-image ul{
+    display: flex;
+    list-style-type: none;
+    background-color: #fff;
+    width: 80%;
+    height: 60px;
+    margin: auto;
+    position: relative;
+    top: 64px;
+    justify-content: space-around;
+    padding-top: 20px;
+    border-bottom: 2px solid orangered;
+    padding-left: 0px;
+}
+.footer-image ul li{
+    width: 20%;
+    text-align: center;
+}
+#all::after{
+    content: "";
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 49px;
+    left: 70px;
+}
+.active{
+    color: orangered;
+    background-color: rgb(222, 221, 221);
+}
+.guide{
+    height: fit-content;
+    width: fit-content;
+    margin-left: 63px;
+    padding-top: 30px;
+    background-color: #fff;
+    color: rgb(0, 0, 120);
+    z-index: 100;
+    position: relative;
+}
+.guide p a{
+    text-decoration: underline;
+}
+.links{
+    width: 90%;
+    height: 250px;
+    background-color: rgb(213, 213, 213);
+    margin: auto;
+    margin-top: 50px;
+}
+.links p{
+    transform: translate(100px,50px);
+    font-weight: 600;
+    width: fit-content;
+}
+.links p::after{
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: rgb(2, 2, 109);
+    position: absolute;
+    top: 15px;
+    left: 90px;
+}
+.links div{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    position: relative;
+    top: 60px;
+    left: 46%;
+}
+.links ul{
+    list-style-type: none;
+}
+.links li{
+    color: orangered;
+    font-weight: 600;
+}
+
+@media(max-width: 1025px){
+    .footer-image ul{
+        top: 68px;
+    }
+    .footer-image li{
+        font-size: 18px;
+    }
+    #all::after{
+        left: 60px;
+    }
+    .links div{
+        left: 42%;
+    }
+}
+@media(max-width: 1000px){
+    .buttonGroup{
+        left: 30%;
+    }
+    .share{
+        left: 60px;
+        top: -222px;
+    }
+    .america-image{
+        left: 60px;
+        height: 400px;
+    }
+    .footer-image ul{
+        top: 70px;
+    }
+    #all::after{
+        left: 50px;
+    }
+    .links div ul{
+        padding-left: 10px;
+    }
+}
+@media(max-width: 900px){
+    .buttonGroup{
+        left: 25%;
+    }
+    .footer-image ul{
+        top: 72px;
+    }
+    #all::after{
+        top: 50px;
+        left: 50px;
+        width: 15px;
+        height: 15px;
+    }
+    .links{
+        height: 200px;
+    }
+    .links div{
+       top: 50px;
+    }
+    .links div ul{
+        padding-left: 10px;
+    }
+    .links li{
+        font-size: 13px;
+    }
+}
+@media(max-width: 800px){
+    .bookmark-container{
+        margin-bottom: 100px;
+    }
+    .share{
+        left: 50px;
+    }
+    .america-image{
+        left: 50px;
+    }
+    .footer-image{
+        height: 200px;
+    }
+    .footer-image h1{
+        padding-top: 80px;
+    }
+    .footer-image ul{
+        top: 12px;
+    }
+    .links{
+        height: 200px;
+    }
+    .links div{
+       top: 50px;
+    }
+    .links div ul{
+        padding-left: 10px;
+    }
+    .links li{
+        font-size: 13px;
+    }
+}
+@media(max-width: 600px){
+    .share{
+        left: 30px;
+        top: -172px;
+    }
+    .buttonGroup{
+        left: 15%;
+    }
+    .buttonGroup button{
+        height: 40px;
+        width: 180px;
+        font-size: 13px;
+    }
+    .america-image{
+        left: 30px;
+        height: 300px;
+    }
+    .footer-image h1{
+        padding-top: 80px;
+    }
+    .footer-image ul{
+        top: 16px;
+        width: 90%;
+        padding-left: 0px;
+    }
+    .footer-image li{
+        font-size: 15px;
+    }
+    #all::after{
+        left: 10px;
+    }
+    .guide{
+        margin-left: 23px;
+    }
+    .guide h2{
+        font-size: 25px;
+    }
+    .links p{
+        transform: translate(50px,20px);
+    }
+    .links div{
+       top: 50px;
+       left: 20%;
+    }
+    .links div li{
+        font-size: 13px;
+    }
+}
+@media(max-width: 600px){
+    .header-image p{
+        font-size: 13px;
+        width: fit-content;
+    }
+    .share{
+        left: 30px;
+        top: -147px;
+    }
+    .buttonGroup{
+        left: 10%;
+    }
+    .buttonGroup button{
+        height: 40px;
+        width: 150px;
+        font-size: 13px;
+    }
+    .america-image{
+        left: 30px;
+        height: 250px;
+        width: 70%;
+    }
+    .footer-image h1{
+        padding-top: 80px;
+    }
+    .footer-image ul{
+        top: 19px;
+    }
+    .footer-image li{
+        font-size: 13px;
+    }
+    #all::after{
+        left: 5px;
+        top: 52px;
+    }
+    .guide{
+        margin-left: 23px;
+    }
+    .guide h2{
+        font-size: 20px;
+    }
+    .links p{
+        transform: translate(50px,20px);
+    }
+    .links div{
+       top: 50px;
+       left: 5%;
+    }
+    .links div li{
+        font-size: 13px;
+    }
+}
+@media(max-width: 400px){
+    .header-image p{
+        font-size: 13px;
+        width: fit-content;
+    }
+    .share{
+        left: 30px;
+        top: -132px;
+    }
+    .buttonGroup{
+        left: 10%;
+    }
+    .buttonGroup button{
+        height: 40px;
+        width: 150px;
+        font-size: 13px;
+    }
+    .america-image{
+        left: 30px;
+        height: 220px;
+        width: 70%;
+    }
+    .footer-image{
+        height: 160px;
+    }
+    .footer-image h1{
+        padding-top: 50px;
+        font-size: 25px;
+    }
+    .footer-image ul{
+        top: 12px;
+    }
+    .footer-image li{
+        font-size: 13px;
+    }
+    #all::after{
+        left: 3px;
+        top: 52px;
+    }
+    .guide{
+        margin-left: 23px;
+    }
+    .guide h2{
+        font-size: 18px;
+    }
+    .links{
+        height: 160px;
+    }
+    .links p{
+        transform: translate(50px,20px);
+    }
+    .links div{
+       top: 20px;
+       left: 5%;
+       width: 300px;
+    }
+    .links div li{
+        font-size: 12px;
+    }
+}
+@media(max-width: 380px){
+    .footer-image ul{
+        top: 12px;
+    }
+    .footer-image li{
+        font-size: 12px;
+    }
+    #all::after{
+        left: 5px;
+        top: 52px;
+        height: 12px;
+        width: 12px;
+    }
+    .guide p{
+        font-size: 15px;
+    }
+    .guide a{
+        font-size: 13px;
+    }
+}
+@media(max-width: 370px){
+    .header-image h1{
+        font-size: 25px;
+    }
+    .buttonGroup{
+        left: 5%;
+    }
+    .guide h2{
+       font-size: 17px;
+    }
+    .guide p{
+        font-size: 14px;
+    }
+    .links div li{
+        font-size: 11px;
+    }
+}
+@media(max-width: 300px){
+    .bookmark-container{
+        margin-bottom: 50px;
+    }
+    .header-image h1{
+        padding-top: 60px;
+        font-size: 20px;
+    }
+    .header-image p{
+        padding: 10px;
+    }
+    .buttonGroup{
+        left: 8%;
+        top: 10px;
+    }
+    .share{
+        left: 5%;
+        top: -122px;
+    }
+    .america-image{
+        left: 5%;
+        height: 200px;
+    }
+    .buttonGroup button{
+        width: 110px;
+        font-size: 10px;
+    }
+    .footer-image {
+        height: 130px;
+    }
+    .footer-image h1{
+        font-size: 20px;
+        padding-top: 30px;
+    }
+    .footer-image ul{
+        top: 8px;
+    }
+    .footer-image li{
+        font-size: 10px;
+    }
+    .guide{
+        margin-left: 10px;
+    }
+    .guide h2{
+        font-size: 15px;
+        width: 96%;
+    }
+    .guide p{
+        width: 96%;
+    }
+    .links p{
+        transform: translate(20px,20px);
+    }
+    .links p::after{
+        width: 50px;
+    }
+    .links div{
+        left: 0%;
+        width: 250px;
+    }
+    .links div li{
+        font-size: 10px;
+    }
+}

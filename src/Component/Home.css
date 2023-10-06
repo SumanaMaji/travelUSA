@@ -1,0 +1,60 @@
+.homeFile{
+    height: 5200px;
+
+
+}
+@media(max-width: 1280px){
+    .homeFile{
+        height: 5490px
+    }
+}
+@media(max-width: 1025px){
+    .homeFile{
+        height: 5690px
+    }
+}
+@media(max-width: 1000px){
+    .homeFile{
+        height: 6460px
+    }
+}
+@media(max-width: 900px){
+    .homeFile{
+        height: 6270px
+    }
+}
+@media(max-width: 800px){
+    .homeFile{
+        height: 6190px
+    }
+}
+@media(max-width: 600px){
+    .homeFile{
+        height: 5150px
+    }
+}
+@media(max-width: 500px){
+    .homeFile{
+        height: 5950px
+    }
+}
+@media(max-width: 400px){
+    .homeFile{
+        height: 5960px
+    }
+}
+@media(max-width: 380px){
+    .homeFile{
+        height: 5670px
+    }
+}
+@media(max-width: 370px){
+    .homeFile{
+        height: 5640px
+    }
+}
+@media(max-width: 300px){
+    .homeFile{
+        height: 5500px
+    }
+}

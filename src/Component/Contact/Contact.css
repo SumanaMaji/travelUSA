@@ -1,0 +1,708 @@
+.Contact-Us{
+    width: 100%;
+    height: 1200px;
+    background-image: url("https://ik.imagekit.io/ikmedia/backlit.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: red;
+}
+.Contact-Us h2{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    top: 100px;
+}
+.contact-Form{
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    height: fit-content;
+    position: relative;
+    top: 300px;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+.form-left{
+    padding-right: 30px;
+    width: 33%;
+    height: 100%;
+    padding-top: 30px;
+    float: left;
+}
+.form-left h4{
+    color: skyblue;
+    font-size: 25px;
+    margin-left: 80px;
+}
+.form-left div{
+    height: fit-content;
+    width: 300px;
+    float: right;
+    background-color: #ece6e6;
+    margin-top: 10px;
+}
+.form-left ul{
+    list-style: none;
+    width: 100%;
+    height: fit-content;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+.form-left ul li{
+    padding: 15px;
+    border-bottom: 2px solid orange;
+    width: 100%;
+    color: orangered;
+}
+.form-left div ul li i{
+    float: right;
+}
+.hiddenDiv li{
+    border: none;
+}
+.form-right{
+    width: 60%;
+    height: 850px;
+    padding: 30px 60px 30px 30px;
+    position: relative;
+    top: -60px;
+    background-color: #fff;
+}
+.form-right h1{
+    margin: 10px 0px 30px 0px;
+}
+#firstP{
+    margin-bottom: 60px;
+}
+.form-right form{
+    width: 100%;
+}
+.form-checkbox{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-right: 100px;
+}
+.form-checkbox input{
+    border: 2px solid orange;
+    height: 16px;
+    width: 16px;
+}
+.form-checkbox label{
+    margin-right: 20px;
+}
+.checking{
+    width: fit-content;
+    height: fit-content;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border: 1px solid rgb(221, 221, 221);
+}
+.checking label{
+    position: relative;
+    top: 12px;
+}
+#check{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+}
+.checking label span{
+    margin-left: 10px;
+}
+.checking img{
+    height: 20px;
+    width: 20px;
+    margin-left: 80px;
+    margin-right: 15px;
+}
+.recaptcha{
+    font-size: 10px;
+    float: right;
+}
+.checking p{
+    font-size: 12px;
+    float: right;
+    position: relative;
+    top: -10px;
+}
+.form-right button{
+    font-size: 15px;
+    padding: 10px 50px;
+    margin-top: 10px;
+    border: none;
+    background-color: orange;
+}
+@media(max-width: 1000px){
+    .Contact-Us{
+        height: 2400px;
+    }
+    .contact-Form{
+        display:grid;
+        justify-content: center;
+    }
+    .form-left{
+        width: 100%;
+        float: left;
+    }
+    .form-left div{
+        width: 600px;
+        float: none;
+        margin: auto;
+    }
+    .form-left ul li{
+        font-size: 25px;
+    }
+    .form-left h4{
+       font-size: 42px;
+       text-align: center;
+       margin-bottom: 20px;
+    }
+    .form-right{
+        width: 100%;
+        top: 0px;
+        height: 1400px;
+    }
+    .form-right h1{
+        font-size: 35px;
+    }
+    #firstP{
+        font-size: 30px;
+    }
+    .form-right p{
+        font-size: 30px;
+    }
+    .form-checkbox{
+        padding-right: 0px;
+        display: grid;
+        margin-bottom: 50px;
+    }
+    .form-checkbox input{
+        width: 40px;
+        height: 40px;
+        position: relative;
+        top: 46px;
+    }
+    .form-checkbox label{
+        font-size: 30px;
+        margin-left: 70px;
+    }
+    .fieldInput{
+        height: 50px;
+    }
+    .fieldInput::placeholder{
+       font-size: 20px;
+    }
+    .checking{
+        height: 130px;
+    }
+    .checking label{
+        position: relative;
+        top: 12px;
+    }
+    #check{
+        width: 30px;
+        height: 30px;
+        top: 20px;
+    }
+    .checking label span{
+        font-size: 25px;
+        position: relative;
+        top: 15px;
+        left: 10px;
+    }
+    .checking img{
+        height: 30px;
+        width: 30px;
+        margin-left: 100px;
+        margin-right: 15px;
+    }
+    .recaptcha{
+        font-size: 20px;
+    }
+    .checking p{
+        font-size: 20px;
+        position: relative;
+        left: 100px;
+        top: 0px;
+    }
+    .form-right button{
+        font-size: 30px;
+        padding: 10px 50px;
+        margin-top: 20px;
+    }
+}
+@media(max-width: 600px){
+    .Contact-Us{
+        height: 2350px;
+    }
+    .contact-Form{
+        display:grid;
+        justify-content: center;
+    }
+    .form-left{
+        width: 100%;
+        float: left;
+        padding-right: 0px;
+    }
+    .form-left div{
+        width: 500px!important;
+        float: none;
+        margin: auto;
+    }
+    .form-left ul li{
+        font-size: 25px;
+    }
+    .form-left h4{
+       font-size: 42px;
+       text-align: center;
+       margin-bottom: 20px;
+    }
+    .form-right{
+        width: 100%;
+        top: 0px;
+        height: fit-content;
+    }
+    .form-right h1{
+        font-size: 30px;
+    }
+    #firstP{
+        font-size: 25px;
+    }
+    .form-right p{
+        font-size: 25px;
+    }
+    .form-checkbox{
+        padding-right: 0px;
+        display: grid;
+        margin-bottom: 50px;
+    }
+    .form-checkbox input{
+        width: 30px;
+        height: 30px;
+        position: relative;
+        top: 38px;
+    }
+    .form-checkbox label{
+        font-size: 25px;
+        margin-left: 50px;
+    }
+    .fieldInput{
+        height: 50px;
+    }
+    .fieldInput::placeholder{
+       font-size: 20px;
+    }
+    .checking{
+        height: 100px;
+    }
+    .checking label{
+        position: relative;
+        top: 12px;
+        font-size: 18px;
+    }
+    #check{
+        width: 25px;
+        height: 25px;
+        top: 20px;
+    }
+    .checking label span{
+        font-size: 23px;
+        position: relative;
+        top: 15px;
+        left: 10px;
+    }
+    .checking img{
+        height: 30px;
+        width: 30px;
+        margin-left: 80px;
+        margin-right: 15px;
+    }
+    .recaptcha{
+        font-size: 15px;
+    }
+    .checking p{
+        font-size: 15px;
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+    .form-right button{
+        font-size: 25px;
+        padding: 10px 50px;
+        margin-top: 20px;
+    }
+}
+@media(max-width: 500px){
+    .Contact-Us{
+        height: 2380px;
+    }
+    .form-left div{
+        width: 320px !important;
+    }
+    .form-left ul li{
+        font-size: 20px;
+    }
+    .form-left h4{
+       font-size: 30px;
+       margin-left: 0px;
+    }
+    .form-right{
+        width: 100%;
+        top: 0px;
+        height: fit-content;
+    }
+    .form-right h1{
+        font-size: 30px;
+    }
+    #firstP{
+        font-size: 30px;
+    }
+    .form-right p{
+        font-size: 30px;
+    }
+    .form-checkbox{
+        padding-right: 0px;
+        display: grid;
+        margin-bottom: 50px;
+    }
+    .form-checkbox input{
+        height: 20px;
+        width: 20px;
+        top: 25px;
+    }
+    .form-checkbox label{
+        font-size: 20px;
+    }
+    .checking{
+        height: 100px;
+    }
+    .checking label{
+        position: relative;
+        top: 12px;
+    }
+    #check{
+        width: 20px;
+        height: 20px;
+        top: 0px;
+    }
+    .checking label span{
+        font-size: 20px;
+        position: relative;
+        top: 0px;
+        left: 10px;
+    }
+    .checking img{
+        height: 35px;
+        width: 35px;
+        margin-left: 30px;
+    }
+    .recaptcha{
+        font-size: 15px;
+        transform: translate(0px,0px);
+    }
+    .checking p{
+        font-size: 15px;
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+    .form-right button{
+        font-size: 25px;
+        padding: 10px 50px;
+    }
+}
+@media(max-width: 400px){
+    .Contact-Us{
+        height: 2300px;
+    }
+    .form-left{
+        padding-right: 0px;
+    }
+    .form-left div{
+        width: 320px;
+    }
+    .form-left ul li{
+        font-size: 20px;
+    }
+    .form-left h4{
+       font-size: 30px;
+       margin-left: 0px;
+    }
+    .form-right{
+        width: 100%;
+    }
+    .form-right h1{
+        font-size: 25px;
+    }
+    #firstP{
+        font-size: 20px;
+    }
+    .form-right p{
+        font-size: 20px;
+    }
+    .form-checkbox{
+        padding-right: 0px;
+        display: grid;
+        margin-bottom: 50px;
+    }
+    .checking{
+        height: 100px;
+    }
+    #check{
+        width: 30px;
+        height: 30px;
+    }
+    .checking label span{
+        font-size: 20px;
+        top: -5px;
+        left: 10px;
+    }
+    .checking img{
+        height: 35px;
+        width: 35px;
+        margin-left: 30px;
+    }
+    .recaptcha{
+        font-size: 15px;
+    }
+    .checking p{
+        font-size: 15px;
+    }
+    .form-right button{
+        font-size: 25px;
+        padding: 10px 50px;
+        margin-top: 20px;
+    }
+}
+@media(max-width: 380px){
+    .Contact-Us{
+        height: 2130px;
+    }
+    .form-left div{
+        width: 300px;
+    }
+    .form-left ul li{
+        font-size: 20px;
+    }
+    .form-left h4{
+       font-size: 30px;
+    }
+    .form-right{
+        width: 100%;
+        height: 1200px;
+    }
+    .form-right h1{
+        font-size: 25px;
+    }
+    #firstP{
+        font-size: 20px;
+    }
+    .form-right p{
+        font-size: 20px;
+    }
+    .form-checkbox{
+        padding-right: 0px;
+        display: grid;
+        margin-bottom: 50px;
+    }
+    .form-checkbox input{
+       height: 25px;
+       width: 25px;
+       top: 28px;
+    }
+    .form-checkbox label{
+        font-size: 18px;
+    }
+    .fieldInput{
+        height: 50px;
+    }
+    .fieldInput::placeholder{
+        font-size: 20px;
+    }
+    .checking{
+        height: 100px;
+    }
+    #check{
+        width: 30px;
+        height: 30px;
+    }
+    .checking label span{
+        font-size: 18px;
+    }
+    .checking img{
+        height: 30px;
+        width: 30px;
+    }
+    .recaptcha{
+        font-size: 15px;
+    }
+    .checking p{
+        font-size: 15px;
+    }
+    .form-right button{
+        font-size: 20px;
+        padding: 10px 50px;
+        margin-top: 20px;
+    }
+}
+@media(max-width: 370px){
+    .Contact-Us{
+        height: 2050px;
+    }
+    .form-left div{
+        width: 300px;
+    }
+    .form-left ul li{
+        font-size: 18px;
+    }
+    .form-left h4{
+       font-size: 30px;
+    }
+    .form-right{
+        width: 100%;
+    }
+    .form-right h1{
+        font-size: 23px;
+    }
+    #firstP{
+        font-size: 18px;
+    }
+    .form-right p{
+        font-size: 18px;
+    }
+    .form-checkbox{
+        padding-right: 0px;
+        display: grid;
+        margin-bottom: 50px;
+    }
+    .form-checkbox input{
+       height: 25px;
+       width: 25px;
+       top: 28px;
+    }
+    .form-checkbox label{
+        font-size: 17px;
+    }
+    .fieldInput{
+        height: 40px;
+    }
+    .fieldInput::placeholder{
+        font-size: 15px;
+    }
+    .checking{
+        height: 80px;
+    }
+    #check{
+        width: 25px;
+        height: 25px;
+    }
+    .checking label span{
+        font-size: 16px;
+    }
+    .checking img{
+        height: 25px;
+        width: 25px;
+    }
+    .recaptcha{
+        font-size: 12px;
+    }
+    .checking p{
+        font-size: 12px;
+        transform: translate(0px,-10px);
+    }
+    .form-right button{
+        font-size: 20px;
+        padding: 10px 50px;
+        margin-top: 20px;
+    }
+}
+@media(max-width: 300px){
+    .Contact-Us{
+        height: 2120px;
+    }
+    .Contact-Us h2{
+        font-size: 30px;
+    }
+    .form-left div{
+        width: 230px !important;
+        margin: 0px auto;
+    }
+    .form-left ul li{
+        font-size: 18px;
+    }
+    .form-left h4{
+       font-size: 30px;
+       width: 270px;
+    }
+    .form-right{
+        width: 100%;
+        padding-right: 0px;
+        height: 1200px;
+        padding-left: 10px;
+    }
+    .form-right h1{
+        font-size: 23px;
+        width: 90%;
+    }
+    #firstP{
+        font-size: 18px!important;
+        width: 90%;
+    }
+    .form-right p{
+        font-size: 20px;
+    }
+    .form-checkbox{
+        padding-right: 0px;
+        display: grid;
+        margin-bottom: 50px;
+    }
+    .form-checkbox input{
+       height: 30px;
+       width: 30px;
+    }
+    .form-checkbox label{
+        font-size: 20px;
+    }
+    .formInput{
+        width: 100%;
+    }
+    .fieldInput{
+        height: 50px;
+    }
+    .fieldInput::placeholder{
+        font-size: 20px;
+    }
+    .checking{
+        height: 100px!important;
+        width: 80%;
+    }
+    #check{
+        width: 18px!important;
+        height: 18px!important;
+    }
+    .checking label span{
+        font-size: 15px!important;
+    }
+    .checking img{
+        height: 17px!important;
+        width: 17px!important;
+        margin: 0px!important;
+        transform: translate(20px,10px);
+    }
+    .recaptcha{
+        font-size: 12px!important;
+        transform: translate(0px,20px)!important;
+    }
+    .checking p{
+        font-size: 15px;
+        transform: translate(0px,10px)!important;
+    }
+    .form-right button{
+        font-size: 25px;
+        padding: 10px 50px;
+        margin-top: 10px;
+    }
+}

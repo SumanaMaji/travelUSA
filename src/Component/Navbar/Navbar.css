@@ -1,0 +1,1551 @@
+.nav_bar_container {
+    position: relative;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+}
+
+.nav_bar {
+    width: 100%;
+    height: 100px;
+}
+
+.upper_nav {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first_nav {
+    height: 100%;
+    width: 25%;
+    display: flex;
+}
+
+.first_nav div {
+    width: 40%;
+}
+
+.first_nav div img {
+    margin-left: 8%;
+    margin-top: 3%;
+    height: 50px;
+}
+
+.first_nav div figcaption {
+    padding-top: 5px;
+    font-size: 12px;
+    margin-left: 23%;
+}
+
+.first_nav p {
+    font-size: 15px;
+}
+
+.last_nav {
+    position: relative;
+    right: 2%;
+    width: fit-content;
+    top: 10px;
+}
+
+.last_nav ul {
+    height: 70%;
+    display: flex;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.last_nav ul form input {
+    width: 500px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+    padding-left: 20px;
+    display: none;
+}
+
+.last_nav ul form input::placeholder {
+    font-size: 15px;
+}
+
+.last_nav ul form input:hover {
+    background-color: #90b3cf;
+    color: white;
+    border-color: rgb(116, 116, 219);
+}
+
+.last_nav li {
+    margin-left: 23px;
+    font-size: 20px;
+    width: 15%;
+}
+
+.lastLi {
+    transform: translate(3px, 0px);
+}
+
+.last_nav ul li:last-child {
+    width: 30px
+}
+
+
+
+
+.down_nav {
+    width: 28.4%;
+    height: 100%;
+    position: relative;
+    left: 71.5%;
+    top: -25px;
+    display: flex;
+}
+
+.down_nav ul {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    display: flex;
+    margin-right: 20px;
+    position: relative;
+    text-decoration: none;
+    list-style-type: none;
+    float: left;
+    padding: 0px;
+    justify-content: end;
+}
+
+.down_nav ul li {
+    margin-left: 30px;
+    font-size: 15px;
+    color: rgb(6, 6, 97);
+    font-weight: 500;
+}
+
+.down_nav ul li:hover {
+    text-decoration: underline;
+    color: orange;
+    cursor: pointer;
+}
+.down_nav ul li Link:hover{
+    text-decoration: underline;
+    color: orange;
+    cursor: pointer;
+}
+
+.down_nav ul li:first-child {
+    margin-left: 0px;
+}
+
+.down_nav ul li i {
+    color: rgb(212, 210, 210);
+    margin-left: 9px;
+    font-size: 15px;
+}
+
+.down_nav ul li i:hover {
+    color: rgb(154, 154, 154);
+}
+
+/* Destination details */
+
+.destinationdetails {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 10000000;
+    border-radius: 10px;
+    height: 500px;
+
+}
+
+/* .destinationdetails::-webkit-scrollbar{
+      width: 1rem;
+      height: 200px;
+      margin-right: 20px;
+}
+.destinationdetails::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: rgb(209, 207, 207);
+    height: 200px;
+    border-radius: 10px;
+
+}
+.destinationdetails::-webkit-scrollbar-thumb{
+    background-color: red;
+    border-radius: 10px;
+    height: 20%;
+    padding: 2px;
+} */
+
+.destinationdetails ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.destinationdetails ul li {
+    margin-top: 12px;
+    font-size: 18px;
+    margin-left: 50px;
+    font-weight: 600;
+}
+
+.destinationdetails ul li:hover {
+    cursor: pointer;
+}
+
+.USAplaces {
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: justify;
+}
+
+.USAplaces table {
+    width: 100%;
+    height: fit-content;
+}
+
+
+.USAplaces img {
+    width: 100px;
+    height: 50px;
+}
+
+.USAplaces p {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.USAplacesP {
+    margin: 15px 0px 35px 0px;
+    color: #90b3cf;
+}
+
+.destinationDetailsBar {
+    width: 13px;
+    position: relative;
+    left: 93%;
+    top: -330px;
+}
+
+.destinationDetailsBar i {
+    font-size: 30px;
+    position: relative;
+    top: -10px;
+    left: 20px;
+    color: red;
+    font-weight: 400;
+}
+
+.deatinationUpperSlide {
+    height: 50%;
+    width: 100%;
+    color: red;
+}
+
+.deatinationDownSlide {
+    height: 50%;
+    width: 100%;
+    color: grey;
+}
+.main_bar {
+    display: block;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 0px;
+    z-index: 1000;
+}
+
+.header_bar {
+    width: 100%;
+    height: 3px;
+    background-color: red;
+}
+
+.side_bar {
+    width: 13px;
+    height: 500px;
+    position: relative;
+    left: 85%;
+    top: -650px;
+}
+
+#upper_side {
+    background-color: red;
+    height: 300px;
+}
+
+#down_side {
+    background-color: rgb(209, 207, 207);
+    height: 200px;
+}
+
+.hidden_bar {
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+}
+
+.bar_content {
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.bar_content ul {
+    list-style-type: none;
+    align-items: center;
+    margin: auto;
+}
+
+.bar_content li {
+    font-size: 20px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.bar_content ul li i {
+    margin-left: 10px;
+}
+
+.bar_content ul li img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.bar_content ul div {
+    height: 1px;
+    width: 500px;
+    background-color: red;
+    color: red;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.countries {
+    width: 300px;
+    background-color: rgb(240, 237, 237);
+    height: 400px;
+    position: relative;
+    top: -98%;
+    left: 58%;
+}
+
+.countries ul li {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.countries ul li:last-child {
+    margin-top: 10px;
+}
+
+/* Trip Under Div */
+
+.tripdetails {
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    top: 100px;
+    z-index: 10000000000;
+    background-color: #fff;
+}
+
+.tripdetailsMiddle {
+    display: flex;
+    width: 70%;
+    height: 300px;
+    position: relative;
+    top: 90px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.tripdetailsMiddle div {
+    width: 32%;
+    height: 100%;
+
+}
+
+.tripdetailsMiddle div img {
+    width: 100%;
+    height: 60%;
+}
+
+.tripdetailsFirstP {
+    color: rgb(238, 156, 4);
+    font-weight: 600;
+    padding: 0px 5px;
+}
+
+.tripdetailsLastP {
+    color: rgb(4, 4, 219);
+    font-weight: 600;
+    font-size: 15px;
+    padding: 0px 5px;
+}
+
+.tripdetails button {
+    position: relative;
+    top: 100px;
+    left: 43%;
+    padding: 10px 50px;
+    background-color: orange;
+    border: none;
+    font-size: 15px;
+}
+
+.tripdetailsBar {
+    width: 13px;
+    height: 500px;
+    position: relative;
+    left: 88%;
+    top: -300px;
+}
+
+.tripdetailsBar i {
+    font-size: 25px;
+    position: relative;
+    top: -20px;
+    left: -5px;
+    color: red;
+    font-weight: 400;
+}
+
+/* Search here */
+.search-Container {
+    width: 100%;
+    height: fit-content;
+}
+
+.search-Container input {
+    margin: auto;
+    height: 50px;
+    width: 500px;
+    background-color: #d9d7d7;
+    border: none;
+    position: relative;
+    top: 100px;
+    left: 360px;
+    padding-left: 20px;
+    border: none;
+}
+
+.searchIcon {
+    position: relative;
+    top: 100px;
+    left: 310px;
+    color: orangered;
+}
+
+.images-portion {
+    width: 65%;
+    height: fit-content;
+    display: flex;
+    position: relative;
+    left: 80px;
+    top: 200px;
+    margin: auto;
+}
+
+.left-image {
+    width: 50%;
+    height: fit-content;
+}
+
+.left-first-image {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.left-first-image img {
+    height: 100%;
+    width: 48%;
+}
+
+.left-last-image {
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.left-last-image img {
+    width: 48%;
+    height: 100%;
+}
+
+.right-image {
+    width: 50%;
+    height: fit-content;
+}
+
+.right-first-image {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.right-first-image img {
+    width: 48%;
+    height: 100%;
+}
+
+.right-last-image {
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.right-last-image img {
+    width: 48%;
+    height: 100%;
+}
+
+.USAexp {
+    color: orangered;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.USAdetails {
+    color: rgb(2, 2, 127);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.searchSlider {
+    width: 13px;
+    position: relative;
+    left: 90%;
+    top: -200px;
+    height: 400px;
+}
+
+.searchSlider i {
+    color: red;
+    font-size: 30px;
+    font-weight: 200;
+    transform: translate(-5px, 0px);
+}
+
+#up-side {
+    height: 50%;
+    background-color: red;
+}
+
+#down-side {
+    height: 50%;
+    background-color: rgb(187, 187, 187);
+}
+
+.images-portion span {
+    padding-left: 20px;
+}
+
+@media(max-width: 1300px){
+    .first_nav{
+        width: 60%;
+    }
+    .first_nav div{
+        width: 200px;
+        height: 60px;
+        margin-left: 20px;
+    }
+    .first_nav div img{
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+    }
+    .first_nav p{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    .first_nav div figcaption{
+        margin-left: 30px;
+        font-size: 20px;
+    }
+    .last_nav{
+        position: relative;
+        left: 0%;
+    }
+    .last_nav ul{
+        padding-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }.last_nav ul li{
+        font-size: 25px;
+        margin-right: 0px;
+        padding: 0px;
+    }
+    .down_nav{
+        left: 69%;
+        width: fit-content;
+        float: right;
+    }
+    .down_nav ul li{
+        font-size: 21px;
+        margin-left: 20px;
+    }
+    .down_nav ul{
+        margin-right: 0px;
+    }
+    .down_nav ul li i{
+        font-size: 23px;
+    }
+    .down_nav ul li:first-child{
+        margin-left: 0px;
+    }
+    .main_bar{
+        width: 100%;
+    }
+    .bar_content ul div{
+        width: 180px;
+    }
+    .side_bar{
+        left: 88%;
+        margin: 0px;
+    }
+}
+
+@media(max-width: 1025px){
+    .first_nav{
+        width: 50%;
+    }
+    .first_nav div{
+        width: fit-content;
+        margin-left: 20px;
+    }
+    .first_nav div img{
+        width: 150px;
+        margin-left: 0px;
+    }
+    .first_nav p{
+        font-size: 16px;
+        margin-left: 20px;
+    }
+    .first_nav div figcaption{
+        font-size: 15px;
+    }
+    .last_nav{
+        position: relative;
+        left: 0%;
+    }
+    .last_nav ul{
+        padding-left: 0px;
+        margin-right: 0px;
+    }.last_nav ul li{
+        font-size: 24px;
+        margin-right: 0px;
+        padding: 0px;
+    }
+    .down_nav{
+        left: 68%;
+        width: fit-content;
+        float: right;
+        top: -10px;
+    }
+    .down_nav ul{
+        margin-right: 0px;
+    }
+    .down_nav ul li{
+        font-size: 16px;
+        margin-left: 20px;
+        width: fit-content;
+    }
+    .down_nav ul li i{
+        font-size: 23px;
+        transform: translate(0px,-5px);
+    }
+    .main_bar{
+        width: 100%;
+    }
+    .bar_content ul div{
+        width: 180px;
+    }
+    .side_bar{
+        left: 88%;
+        margin: 0px;
+    }
+} 
+@media(max-width: 1000px) {
+    .first_nav {
+        width: 50%;
+    }
+
+    .first_nav p {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .last_nav {
+        position: relative;
+        left: 0%;
+        top: 10px;
+    }
+
+    .last_nav ul {
+        padding-left: 0px;
+        margin-right: 0px;
+    }
+
+    .last_nav ul li {
+        font-size: 20px;
+    }
+
+    .last_nav ul li:nth-child(3) {
+        width: 40px;
+        margin-right: 0px;
+    }
+
+    .last_nav ul li:nth-child(3) a {
+        padding: 0px;
+    }
+
+
+    .lastLi {
+        transform: translate(5px, 0px);
+    }
+
+    .lastLi i {
+        margin-right: 5px;
+        align-items: center;
+        padding-left: 2px;
+        transform: translate(-5px, 2px);
+    }
+
+    .last_nav ul li:last-child a i {
+        padding: 2px;
+    }
+
+    .down_nav {
+        left: 64%;
+        top: -20px;
+        width: fit-content;
+    }
+
+    .down_nav ul li i {
+        font-size: 25px;
+    }
+
+    .down_nav div ul {
+        width: 80%;
+    }
+
+    .down_nav div ul li {
+        margin-top: 12px;
+        font-size: 25px;
+        margin-left: 0px;
+    }
+
+    .down_nav div ul li:last-child {
+        margin-left: 0px;
+    }
+
+    .main_bar {
+        width: 100%;
+    }
+
+    .bar_content ul div {
+        width: 180px;
+    }
+
+    .side_bar {
+        left: 88%;
+        margin: 0px;
+    }
+    .tripdetails button{
+         left: 36%;
+    }
+    .tripdetailsBar{
+        height: 400px;
+    }
+    .tripdetailsBar #upper_side{
+        height: 200px;
+    }
+    .tripdetailsBar #down_side{
+        height: 200px;
+    }
+
+    /* Search Container */
+    .search-Container input {
+        left: 200px;
+    }
+
+    .images-portion {
+        left: 0px;
+        width: 80%;
+    }
+
+    .searchIcon {
+        left: 160px;
+    }
+
+    .images-portion span {
+        padding-left: 10px;
+    }
+
+    .USAdetails {
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 900px) {
+    .first_nav p {
+        font-size: 16px;
+    }
+
+    .first_nav div figcaption {
+        margin-left: 30px;
+    }
+
+    .last_nav {
+        position: relative;
+        left: 0%;
+        width: fit-content;
+    }
+
+    .last_nav ul {
+        padding-left: 0px;
+        margin-right: 0px;
+    }
+
+    .lastLi i {
+        margin-right: 5px;
+        align-items: center;
+        padding-left: 2px;
+        transform: translate(-0px, 2px);
+    }
+
+    .down_nav {
+        left: 62%;
+    }
+
+    .down_nav ul li {
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    .down_nav ul li i{
+        transform: translate(0px,0px);
+    }
+    .main_bar {
+        width: 100%;
+    }
+
+    .bar_content ul div {
+        width: 180px;
+    }
+
+    .side_bar {
+        left: 88%;
+        margin: 0px;
+    }
+    .USAplaces{
+        width: 90%;
+    }
+    .USAplaces img{
+        width: 80px;
+    }
+
+    /* Search Container */
+    .search-Container input {
+        left: 160px;
+    }
+    .searchIcon {
+        left: 130px;
+    }
+}
+
+@media(max-width: 800px) {
+    .first_nav div{
+        margin-top: 10px;
+    }
+    .first_nav div img{
+        margin-top: 0px;
+    }
+    .first_nav p {
+        font-size: 16px;
+        left: 5px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .first_nav div figcaption {
+        margin-left: 30px;
+    }
+
+    .last_nav {
+        position: relative;
+        left: 0%;
+        width: fit-content;
+    }
+
+    .lastLi i {
+        margin-right: 5px;
+        align-items: center;
+        padding-left: 2px;
+        transform: translate(-2px, 1px);
+    }
+
+    .down_nav {
+        left: 58%;
+        float: right;
+    }
+
+    .down_nav ul li {
+        font-size: 15px;
+        margin-left: 20px;
+    }
+
+    .down_nav div ul li {
+        margin-top: 12px;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .main_bar {
+        width: 100%;
+    }
+
+    .bar_content ul div {
+        width: 180px;
+    }
+
+    .side_bar {
+        left: 88%;
+        margin: 0px;
+    }
+
+    /* Search Container */
+    .search-Container input {
+        left: 130px;
+    }
+    .searchIcon {
+        left: 100px;
+    }
+    
+}
+@media(max-width: 700px){
+    .tripdetailsMiddle{
+        height: 230px;
+    }
+    .tripdetails button{
+        top: 180px;
+        left: 29%;
+    }
+}
+@media(max-width: 600px) {
+    .nav_bar_container {
+        width: 100%;
+    }
+    .first_nav{
+        width: 60%;
+    }
+    .first_nav div{
+        width: 130px;
+        height: 50px;
+    }
+
+    .first_nav div img{
+        height: 100%;
+        width: 100%;
+    }
+    .first_nav p {
+        font-size: 15px;
+        margin-left: 20px;
+        margin-bottom: 0px;
+    }
+
+    .first_nav div figcaption {
+        margin-left: 20px;
+        font-size: 15px;
+    }
+
+    .last_nav {
+        left: 0%;
+    }
+
+    .last_nav ul {
+        padding-left: 0px;
+        margin-right: 0px;
+        height: 100%;
+        margin-bottom: 0px;
+    }
+
+    .last_nav ul li {
+        width: fit-content;
+        font-size: 20px;
+        margin-right: 0px;
+    }
+
+    .last_nav ul li:last-child {
+        width: 30px;
+    }
+
+    .lastLi {
+        transform: translate(5px, 1px);
+    }
+
+    .down_nav {
+        left: 46%;
+        top: -10px;
+    }
+
+    .down_nav ul {
+        margin-right: 0px;
+    }
+    .down_nav ul li{
+        margin-left: 10px;
+    }
+    .main_bar {
+        width: 100%;
+    }
+
+    .bar_content ul div {
+        width: 180px;
+    }
+
+    .side_bar {
+        left: 88%;
+        margin: 0px;
+    }
+
+    /* Search Container */
+    .images-portion{
+        width: 70%;
+    }
+    .search-Container input {
+        left: 100px;
+        width: 350px;
+    }
+    .searchIcon {
+        left: 60px;
+    }
+    .left-first-image{
+        height: 80px;
+    }
+    .left-last-image{
+        height: 80px;
+    }
+    .right-first-image{
+        height: 80px;
+    }
+    .right-last-image{
+        height: 80px;
+    }
+    .USAdetails{
+        font-size: 12px;
+    }
+    .USAexp{
+        font-size: 15px;
+    }
+    .searchSlider{
+        height: 300px;
+        top: -150px;
+    }
+    .USAplaces img{
+        width: 69px;
+    }
+    .USAplaces p{
+        font-size: 13px;
+    }
+    .destinationDetailsBar i{
+        top: -100px;
+        left: 0px;
+    }
+
+}
+
+@media(max-width: 500px) {
+    .first_nav {
+        width: 260px;
+    }
+    .first_nav div{
+        width: 100px;
+    }
+
+    .first_nav p {
+        font-size: 13px;
+        margin-left: 10px;
+    }
+
+    .first_nav div figcaption {
+        margin-left: 20px;
+    }
+     .last_nav li{
+        margin-left: 20px;
+     }
+    .lastLi i {
+        margin-right: 5px;
+        align-items: center;
+        padding-left: 2px;
+        transform: translate(-3px, -2px);
+    }
+
+    .down_nav {
+        left: 36%;
+    }
+    .down_nav ul li {
+        font-size: 13px;
+        margin-left: 8px;
+    }
+    .main_bar {
+        width: 100%;
+    }
+
+    .bar_content ul div {
+        width: 180px;
+    }
+
+    .side_bar {
+        left: 88%;
+        margin: 0px;
+    }
+    .tripdetailsMiddle{
+        height: 200px;
+    }
+    .tripdetailsFirstP{
+        font-size: 14px;
+    }
+    .tripdetailsLastP{
+        font-size: 13px;
+    }
+    .tripdetails button{
+        top: 200px;
+        left: 29%;
+        padding: 10px 40px;
+    }
+    .tripdetailsBar{
+        top: -200px;
+    }
+
+    /* Search Container */
+    .search-Container input{
+        width: 250px;
+        left: 80px;
+        top: 50px;
+    }
+    .searchIcon{
+        left: 50px;
+        top: 50px;
+    }
+    .images-portion{
+        top: 100px;
+    }
+    .destinationdetails{
+        height: fit-content;
+    }
+    .destinationdetails ul{
+        padding-left: 0px;
+    }
+    .USAplaces{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .USAplaces img{
+        width: 78%;
+        height: 130px;
+        margin-left: 50px;
+        margin-bottom: 30px;
+    }
+    .USAplaces p{
+        font-size: 18px;
+        text-align: center;
+    }
+    .destinationDetailsBar i{
+        top: -2180px;
+    }
+    .USAexp{
+        font-size: 13px;
+    }
+     .USAdetails{
+       font-size: 13px;
+    }
+    .searchSlider i{
+       font-size: 23px;
+       transform: translate(-2px,0px);
+    }
+    .searchSlider{
+        height: 250px;
+        top: -160px;
+    }
+}
+
+@media(max-width:400px) {
+    .first_nav {
+        width: 260px;
+    }
+    .first_nav div{
+        width: 100px;
+    }
+
+    .first_nav p {
+        font-size: 13px;
+        margin-left: 10px;
+    }
+
+    .first_nav div figcaption {
+        margin-left: 20px;
+    }
+     .last_nav li{
+        margin-left: 20px;
+     }
+    .lastLi i {
+        margin-right: 5px;
+        align-items: center;
+        padding-left: 2px;
+        transform: translate(-3px, -2px);
+    }
+
+    .down_nav {
+        left: 33%;
+    }
+    .down_nav ul li {
+        font-size: 13px;
+        margin-left: 8px;
+    }
+
+    .main_bar {
+        width: 100%;
+    }
+
+    .bar_content ul div {
+        width: 180px;
+    }
+
+    .side_bar {
+        left: 88%;
+        margin: 0px;
+    }
+    .tripdetailsMiddle{
+        height: 180px;
+    }
+    .tripdetailsFirstP{
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+    .tripdetailsLastP{
+        font-size: 13px;
+    }
+    .tripdetails button{
+        top: 230px;
+        left: 27%;
+        padding: 10px 30px;
+    }
+    .tripdetailsBar{
+        top: -160px;
+        height: 360px;
+    }
+    .tripdetailsBar #upper_side{
+        height: 180px;
+    }
+    .tripdetailsBar #down_side{
+        height: 180px;
+    }
+    /* Search Container */
+    .images-portion{
+        width: 70%;
+    }
+    .search-Container input {
+        left: 80px;
+        width: 250px;
+        height: 40px;
+    }
+    .searchIcon {
+        left: 50px;
+    }
+    .left-image{
+        width: 48%;
+        margin-right: 20px;
+    }
+    .right-image{
+        width:48%;
+    }
+    .left-first-image{
+        height: 60px;
+    }
+    .left-last-image{
+        height: 60px;
+    }
+    .right-first-image{
+        height: 60px;
+    }
+    .right-last-image{
+        height: 60px;
+    }
+    .USAdetails{
+        font-size: 10px;
+        transform: translate(0px, -15px);
+    }
+    .USAexp{
+        font-size: 12px;
+    }
+    .searchSlider{
+        height: 200px;
+        top: -120px;
+        width: 10px;
+    }
+    .searchSlider i{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 380px) {
+    .first_nav {
+        width: 260px;
+    }
+    .first_nav div{
+        width: 100px;
+    }
+
+    .first_nav p {
+        font-size: 13px;
+        margin-left: 10px;
+    }
+
+    .first_nav div figcaption {
+        margin-left: 20px;
+    }
+    .last_nav{
+        left: -5px;
+    }
+     .last_nav li{
+        margin-left: 16px;
+        font-size: 15px;
+     }
+    .lastLi i {
+        margin-right: 5px;
+        align-items: center;
+        padding-left: 2px;
+        transform: translate(-3px, -2px);
+    }
+
+    .down_nav {
+        left: 33%;
+    }
+    .down_nav ul li {
+        font-size: 12px;
+        margin-left: 8px;
+    }
+
+    .main_bar {
+        width: 100%;
+    }
+
+    .bar_content ul div {
+        width: 180px;
+    }
+
+    .bar_content ul li {
+        font-size: 18px;
+    }
+
+    .side_bar {
+        left: 88%;
+        margin: 0px;
+        height: 400px;
+    }
+
+    /* Search Container */
+    .search-Container input{
+        left: 60px;
+    }
+    .search-Container i{
+        left: 30px;
+    }
+}
+
+@media(max-width: 370px) {
+
+    .upper_nav{
+       width: fit-content;
+    }
+    .first_nav {
+        width: 250px;
+    }
+    .first_nav div{
+        width: 90px;
+        height: 50px;
+        margin-left: 10px;
+    }
+
+    .first_nav p {
+        font-size: 13px;
+        margin-left: 10px;
+    }
+
+    .first_nav div figcaption {
+        margin-left: 20px;
+    }
+    .last_nav{
+        left: -11px;
+    }
+     .last_nav li{
+        margin-left: 16px;
+        font-size: 15px;
+     }
+    .lastLi i {
+        margin-right: 5px;
+        align-items: center;
+        padding-left: 2px;
+        transform: translate(-3px, -2px);
+    }
+
+    .down_nav {
+        left: 30%;
+    }
+    .down_nav ul li {
+        font-size: 12px;
+        margin-left: 8px;
+    }
+
+    .main_bar {
+        width: 100%;
+    }
+
+    .bar_content ul div {
+        width: 180px;
+    }
+
+    .side_bar {
+        left: 88%;
+        margin: 0px;
+    }
+    .tripdetails{
+        height: 500px;
+    }
+    .tripdetailsMiddle{
+        height: 300px;
+    }
+    .tripdetailsMiddle div img{
+        height: 30%;
+    }
+    .tripdetails button{
+        top: 100px;
+        left: 28%;
+    }
+    .tripdetailsBar{
+        top: -300px;
+    }
+}
+
+@media(max-width: 300px) {
+    .first_nav{
+        width: fit-content;
+    }
+    .first_nav div{
+        width: 90px;
+        height: 40px;
+        margin-left: 10px;
+    }
+
+    .first_nav p {
+        font-size: 10px;
+        margin-left: 10px;
+    }
+
+    .first_nav div figcaption {
+        margin-left: 15px;
+        font-size: 12px;
+    }
+    .last_nav{
+        left: 0px;
+    }
+     .last_nav li{
+        margin-left: 16px;
+        font-size: 15px;
+     }
+    .lastLi i {
+        margin-right: 5px;
+        align-items: center;
+        padding-left: 2px;
+        transform: translate(-3px, -2px);
+    }
+
+    .down_nav {
+        left: 20%;
+        top: 0px;
+    }
+    .down_nav ul li {
+        font-size: 10px;
+        margin-left: 8px;
+    }
+
+    .main_bar {
+        width: 100%;
+    }
+
+    .bar_content ul div {
+        width: 140px;
+    }
+
+    .bar_content ul li {
+        font-size: 15px;
+    }
+
+    .side_bar {
+        left: 88%;
+        margin: 0px;
+    }
+    .destinationdetails ul li{
+        margin-left: 20px;
+    }
+    .destinationDetailsBar i{
+        left: -20px;
+    }
+    .tripdetails{
+        height: 500px;
+    }
+    .tripdetailsMiddle{
+        height: 260px;
+    }
+    .tripdetailsMiddle div img{
+        height: 30%;
+    }
+    .tripdetailsFirstP{
+        font-size: 12px;
+    }
+    .tripdetailsLastP{
+        font-size: 12px;
+    }
+    .tripdetails button{
+        top: 130px;
+        left: 26%;
+    }
+    .tripdetailsBar{
+        top: -250px;
+    }
+
+    /* Search Container */
+    .search-Container input{
+        left: 40px;
+        width: 200px;
+    }
+    .search-Container i{
+        left: 10px;
+    }
+    .images-portion{
+        width: 60%;
+        left: -10px;
+    }
+    .searchSlider{
+        left: 92%;
+    }
+}

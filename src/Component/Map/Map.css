@@ -1,0 +1,1021 @@
+.maping {
+    position: relative;
+    top: 320px;
+}
+
+#natureImg {
+    width: 80%;
+    height: 200px;
+    position: relative;
+    top: -200px;
+    left: 10%;
+    z-index: -100;
+}
+
+.area {
+    width: 60%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    margin: auto;
+    position: relative;
+    top: -280px;
+}
+
+.area ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    padding-left: 0px;
+}
+
+.area ul li {
+    width: 18%;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.area ul li:hover {
+    background-color: rgb(235, 233, 233);
+}
+
+#firstp {
+    width: 300px;
+    margin-left: 0px;
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(226, 33, 33);
+    transform: translate(500px, -280px);
+}
+
+#firstp:after {
+    content: " ";
+    width: 2px;
+    height: 100px;
+    background-color: rgb(226, 33, 33);
+    position: absolute;
+    top: 180%;
+    left: 120px;
+}
+
+.firstdiv {
+    position: relative;
+}
+
+.firstdiv::after {
+    content: " ";
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    top: 82%;
+    left: 46%;
+    transform: rotate(45deg);
+}
+
+#secondp {
+    color: rgb(210, 143, 20);
+    padding-top: 12px;
+}
+
+.underline {
+    width: 60%;
+    height: 1px;
+    background-color: red;
+    transform: translate(33.2%, -281px);
+}
+
+.area div {
+    width: 150px;
+    height: 100%;
+    text-align: center;
+    font-size: 13px;
+    padding-top: -5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+.area div p {
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+.america {
+    width: 60%;
+    height: 500px;
+    position: relative;
+    top: -281px;
+    left: 252px;
+}
+
+.underDiv {
+    height: 150px;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(16, 16, 74);
+    position: relative;
+    top: -195px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.underImage {
+    height: 200px;
+    width: 30%;
+    position: absolute;
+    left: 12.4%;
+    top: -49.9px;
+    background-image: url('Image.png');
+    background-size: contain;
+}
+
+.bgDiv {
+    height: 150px;
+    width: 40%;
+    position: relative;
+    left: 45%;
+}
+
+.bgDiv p {
+    color: white;
+    font-weight: 600;
+    font-size: 1.5vw;
+    width: 250px;
+    margin: auto;
+    margin-top: 15%;
+}
+
+.lastDiv {
+    height: 200px;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: -150px;
+    background-color: #3b8d93;
+    z-index: -10;
+}
+
+.lastbgDiv p {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(7, 7, 61);
+    padding-top: 20px;
+}
+
+.map-Last-Image {
+    width: 100%;
+    height: 350px;
+    justify-content: space-around;
+    display: flex;
+}
+
+.last_Image_Portion {
+    width: 45.5%;
+    height: 94%;
+    margin-left: 0px;
+    position: relative;
+}
+
+.last_Image_Portion img {
+    height: 80%;
+    width: 100%;
+    position: relative;
+    top: 0%;
+}
+
+.last_Image_Portion p {
+    font-size: 20px;
+    transform: translate(20px, 0px);
+    width: 100%;
+}
+
+/* .map-Last-Image div p{
+     font-size: 18px;
+     font-weight: 500;
+     color: rgb(7, 7, 162);
+     transform: translate(0px,290px);
+ 
+ } */
+@media(max-width: 1300px) {
+    .america {
+        left: 256px;
+        top: -281px;
+        width: 60%;
+        height: 400px;
+    }
+}
+
+@media(max-width: 1025px) {
+    #firstp {
+        transform: translate(393px, -300px);
+        font-size: 25px;
+        width: 400px;
+    }
+
+    #firstp:after {
+        left: 32%;
+    }
+
+    .area {
+        top: -280px;
+        height: 86px;
+    }
+
+    .area div {
+        font-size: 15px;
+    }
+
+    .firstdiv::after {
+        top: 91%;
+    }
+
+    .underline {
+        transform: translate(205px, -285px);
+        width: 60%;
+    }
+
+    .america {
+        left: 205px;
+        top: -285px;
+        width: 60%;
+        height: 400px;
+    }
+
+    .underDiv {
+        height: 120px;
+    }
+
+    .bgDiv {
+        height: 120px;
+        width: 50%;
+    }
+
+    .bgDiv p {
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    .underImage {
+        width: 200px;
+        height: 170px;
+    }
+
+    .map-Last-Image {
+        height: 350px;
+    }
+
+    /* .map-Last-Image div:first-child {
+        height: 70%;
+    }
+
+    .map-Last-Image div:last-child {
+        height: 70%;
+    } */
+
+    .map-Last-Image div p {
+        transform: translate(0px, 10px);
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 1000px) {
+    #firstp {
+        transform: translate(298px, -300px);
+        font-size: 30px;
+        width: 480px;
+    }
+
+    #firstp:after {
+        left: 35%;
+    }
+
+    .area {
+        top: -330px;
+        height: 130px;
+    }
+
+    .area div {
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    .area div p {
+        font-size: 17px;
+    }
+
+    .firstdiv::after {
+        top: 90%;
+        width: 20px;
+        height: 20px;
+    }
+
+    .underline {
+        transform: translate(182px, -331px);
+        width: 60%;
+    }
+
+    .america {
+        left: 182px;
+        top: -330px;
+        width: 60%;
+        height: 400px;
+    }
+
+    .underDiv {
+        height: 120px;
+    }
+
+    .bgDiv {
+        height: 120px;
+        width: 50%;
+    }
+
+    .bgDiv p {
+        font-size: 23px;
+        margin-top: 30px;
+    }
+
+    .lastbgDiv p {
+        font-size: 35px;
+    }
+
+    .underImage {
+        width: 200px;
+        height: 170px;
+    }
+
+    .map-Last-Image {
+        height: 350px;
+    }
+
+    /* .map-Last-Image div:first-child {
+        height: 70%;
+    }
+
+    .map-Last-Image div:last-child {
+        height: 70%;
+    } */
+
+    .map-Last-Image div p {
+        transform: translate(0px, 0px);
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 900px) {
+    #firstp {
+        transform: translate(249px, -300px);
+    }
+
+    #firstp:after {
+        left: 35%;
+    }
+
+    .area {
+        top: -310px;
+        width: 70%;
+        height: 110px;
+    }
+
+    .area div {
+        font-size: 15px;
+    }
+
+    .firstdiv::after {
+        top: 90%;
+    }
+
+    .underline {
+        transform: translate(123px, -311px);
+        width: 70%;
+    }
+
+    .america {
+        left: 123px;
+        top: -310px;
+        width: 70%;
+        height: 400px;
+    }
+
+    .underDiv {
+        height: 120px;
+    }
+
+    .bgDiv {
+        height: 120px;
+    }
+    .bgDiv p{
+        font-size: 20px;
+    }
+
+    .underImage {
+        width: 200px;
+        height: 170px;
+    }
+
+    .map-Last-Image {
+        height: 240px;
+        margin-top: 20px;
+    }
+
+    .map-Last-Image div {
+        height: 80%;
+    }
+
+    .map-Last-Image div p {
+        transform: translate(0px, 18px);
+    }
+}
+
+@media(max-width: 800px) {
+    #firstp {
+        transform: translate(220px, -300px);
+        font-size: 35px;
+    }
+
+    #firstp:after {
+        left: 35%;
+    }
+
+    .area {
+        top: -292px;
+        width: 70%;
+        height: 92px;
+    }
+    .area ul li{
+        font-size: 13px;
+    }
+
+    .area div {
+        font-size: 15px;
+    }
+
+    .area div p {
+        font-size: 14px;
+    }
+
+    .firstdiv::after {
+        top: 90%;
+    }
+
+    .underline {
+        transform: translate(115px, -292px);
+        width: 70%;
+    }
+
+    .america {
+        left: 114px;
+        top: -292px;
+        width: 70%;
+        height: 400px;
+    }
+
+    .underDiv {
+        height: 120px;
+    }
+
+    .bgDiv {
+        height: 120px;
+    }
+
+    .bgDiv p {
+        font-size: 18px;
+    }
+
+    .underImage {
+        width: 200px;
+        height: 150px;
+        top: -30px;
+    }
+
+    .map-Last-Image {
+        height: 280px;
+    }
+
+    .map-Last-Image div:first-child {
+        height: 70%;
+    }
+
+    .map-Last-Image div:last-child {
+        height: 70%;
+    }
+
+    .map-Last-Image div p {
+        transform: translate(0px, 10px);
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 600px) {
+    #firstp {
+        transform: translate(152px, -300px);
+        width: fit-content;
+        font-size: 25px;
+    }
+
+    #firstp:after {
+        left: 45%;
+    }
+
+    .area {
+        top: -260px;
+        width: 70%;
+        height: 60px;
+    }
+
+    .area div {
+        font-size: 10px;
+    }
+
+    .area div p {
+        font-size: 9px;
+    }
+
+    .firstdiv::after {
+        top: 86%;
+        left: 30%;
+        width: 15px;
+        height: 15px;
+    }
+
+    .underline {
+        transform: translate(81px, -261px);
+        width: 70%;
+    }
+
+    .america {
+        left: 80px;
+        top: -261px;
+        width: 70%;
+        height: 300px;
+    }
+
+    .underDiv {
+        height: 100px;
+    }
+
+    .bgDiv {
+        height: 120px;
+    }
+
+    .underDiv p {
+        width: 200px;
+    }
+
+    .underImage {
+        left: 5%;
+        width: 180px;
+        height: 130px;
+    }
+
+    .bgDiv {
+        height: 100%;
+        left: 50%;
+        width: 45%;
+        padding-right: 15px;
+    }
+
+    .bgDiv p {
+        font-size: 15px;
+    }
+
+    .map-Last-Image {
+        height: 250px;
+    }
+
+    .map-Last-Image div:first-child {
+        height: 60%;
+    }
+
+    .map-Last-Image div:last-child {
+        height: 60%;
+    }
+
+    .map-Last-Image div p {
+        transform: translate(0px, 10px);
+        font-size: 16px;
+    }
+    .area ul li{
+        font-size: 11px;
+        padding-top: 10px;
+    }
+}
+
+@media(max-width: 500px) {
+    #firstp {
+        transform: translate(80px, -300px);
+        width: fit-content;
+    }
+
+    #firstp:after {
+        left: 47%;
+    }
+
+    .area {
+        top: -290px;
+        width: 70%;
+        height: 90px;
+    }
+    .area ul li{
+        font-size: 10px;
+    }
+
+    .area div {
+        width: fit-content;
+    }
+
+    .area div p {
+        font-size: 10px;
+    }
+
+    .firstdiv::after {
+        top: 90%;
+    }
+
+    .underline {
+        transform: translate(62px, -291px);
+        width: 70%;
+    }
+
+    .america {
+        left: 62px;
+        top: -291px;
+        width: 70%;
+        height: 280px;
+    }
+
+    .underDiv {
+        height: 100px;
+    }
+
+    .bgDiv {
+        height: 100px;
+        width: 130px;
+        left: 55%;
+    }
+
+    .bgDiv p {
+        font-size: 13px;
+        margin: auto;
+        padding-top: 23px;
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    .underImage {
+        width: 160px;
+        height: 120px;
+        top: -20px;
+    }
+
+    .map-Last-Image {
+        position: relative;
+        top: 20%;
+        height: 200px;
+    }
+
+    .map-Last-Image div:first-child {
+        height: 60%;
+    }
+
+    .map-Last-Image div:last-child {
+        height: 60%;
+    }
+
+    .map-Last-Image div p {
+        transform: translate(0px, 10px);
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 400px) {
+    #firstp {
+        transform: translate(100px, -300px);
+        font-size: 20px;
+        width: 260px;
+    }
+
+    #firstp:after {
+        left: 37%;
+        top: 52px;
+    }
+
+    .area {
+        top: -300px;
+        width: 70%;
+        height: 100px;
+    }
+     .area ul li{
+        font-size: 9px;
+        padding-top: 18px;
+     }
+    .area div {
+        font-size: 10px;
+    }
+
+    .firstdiv::after {
+        top: 92%;
+    }
+
+    .underline {
+        transform: translate(58px, -301px);
+        width: 70%;
+    }
+
+    .america {
+        left: 58px;
+        top: -301px;
+        width: 70%;
+        height: 280px;
+    }
+
+    .underDiv {
+        height: 116px;
+    }
+
+    .underDiv p {
+        font-size: 13px;
+    }
+
+    .bgDiv {
+        height: 120px;
+    }
+
+    .underImage {
+        width: 150px;
+        height: 136px;
+    }
+
+    .map-Last-Image {
+        height: 230px;
+    }
+
+    .map-Last-Image div:first-child {
+        height: 60%;
+    }
+
+    .map-Last-Image div:last-child {
+        height: 60%;
+    }
+
+    .map-Last-Image div p {
+        transform: translate(0px, 10px);
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 380px) {
+    #firstp {
+        transform: translate(80px, -300px);
+    }
+
+    #firstp:after {
+        left: 40%;
+    }
+
+    .area {
+        top: -305px;
+        width: 70%;
+        height: 105px;
+    }
+
+    .area div {
+        font-size: 12px;
+    }
+
+    .area div p {
+        font-size: 10px;
+    }
+
+    .firstdiv::after {
+        top: 93%;
+    }
+
+    .underline {
+        transform: translate(56px, -306px);
+        width: 70%;
+    }
+
+    .america {
+        left: 56px;
+        top: -306px;
+        width: 70%;
+        height: 250px;
+    }
+
+    .underDiv {
+        height: 100px;
+    }
+
+    .bgDiv {
+        height: 100px;
+        width: 38%;
+        left: 56%;
+    }
+
+    .underDiv p {
+        font-size: 13px;
+        margin-top: 0%;
+        padding-top: 15px;
+    }
+
+    .underImage {
+        width: 150px;
+        height: 120px;
+    }
+
+    .map-Last-Image {
+        height: 220px;
+    }
+
+    .map-Last-Image div:first-child {
+        height: 60%;
+    }
+
+    .map-Last-Image div:last-child {
+        height: 60%;
+    }
+
+    .map-Last-Image div p {
+        transform: translate(0px, 10px);
+    }
+}
+
+@media(max-width: 370px) {
+    #firstp {
+        transform: translate(80px, -300px);
+    }
+
+    #firstp:after {
+        left: 38%;
+    }
+
+    .area {
+        top: -300px;
+        width: 72%;
+        height: 100px;
+    }
+    .area ul li{
+        padding-top: 10px;
+    }
+    .area div {
+        font-size: 10px;
+    }
+
+    .firstdiv::after {
+        top: 92%;
+    }
+
+    .underline {
+        transform: translate(54px, -301px);
+        width: 70%;
+        height: 1px;
+    }
+
+    .america {
+        left: 55px;
+        top: -301px;
+        width: 70%;
+        height: 250px;
+    }
+
+    .underDiv {
+        height: 100px;
+    }
+
+    .bgDiv {
+        height: 100px;
+        width: 130px;
+    }
+
+    .bgDiv p {
+        padding-top: 15px;
+    }
+
+    .underImage {
+        width: 140px;
+        height: 120px;
+    }
+
+    .map-Last-Image {
+        height: 200px;
+    }
+
+    .map-Last-Image div:first-child {
+        height: 60%;
+    }
+
+    .map-Last-Image div:last-child {
+        height: 60%;
+    }
+
+    .map-Last-Image div p {
+        transform: translate(0px, 10px);
+    }
+}
+
+@media(max-width: 300px) {
+    #firstp {
+        transform: translate(30px, -300px);
+        font-size: 20px;
+        width: fit-content;
+    }
+
+    #firstp:after {
+        left: 50%;
+        top: 50px;
+    }
+
+    .area {
+        top: -296px;
+        width: 75%;
+        height: 96.9px;
+    }
+     .area ul li{
+        padding-top: 5px;
+        font-size: 8px;
+     }
+    .area div {
+        font-size: 10px;
+    }
+
+    .area div p {
+        font-size: 7.4px;
+    }
+
+    .firstdiv::after {
+        top: 92%;
+        left: 23%;
+        width: 10px;
+        height: 10px;
+    }
+
+    #secondp {
+        padding-top: 30px;
+    }
+
+    .underline {
+        transform: translate(36px, -298px);
+        width: 74.5%;
+    }
+
+    .america {
+        left: 35px;
+        top: -297.5px;
+        width: 74.5%;
+        height: 250px;
+    }
+
+    .underDiv {
+        height: 80px;
+    }
+
+    .bgDiv {
+        height: 80px;
+        left: 52%;
+    }
+
+    .bgDiv p {
+        font-size: 12px;
+        padding-top: 15px;
+        padding-left: 0px;
+    }
+
+    .lastDiv {
+        height: 150px;
+    }
+
+    .lastbgDiv p {
+        font-size: 20px;
+    }
+
+    .underImage {
+        width: 100px;
+        height: 100px;
+    }
+
+    .map-Last-Image {
+        height: 160px;
+    }
+
+    .map-Last-Image div:first-child {
+        height: 60%;
+    }
+
+    .map-Last-Image div:last-child {
+        height: 60%;
+    }
+
+    .map-Last-Image div p {
+        transform: translate(0px, 10px);
+        font-size: 13px;
+    }
+}
